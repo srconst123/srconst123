@@ -12,7 +12,7 @@ import emailjs from '@emailjs/browser';
 // import  Router  from "react-router-dom";
 
 
-const careers = () =>{
+const Careers = () =>{
 
     const [userName, setUserName] = useState("");
     const [userEmail, setUserEmail] = useState("");
@@ -93,4 +93,4 @@ const careers = () =>{
 
     )
 }
-export default careers
+export default Careers
