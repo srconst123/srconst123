@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React,{ useState } from "react";
 import Footer from '../../component/footer/Footer';
 import Header from '../../component/header/Header';
 import Cards from '../../component/cards/Cards';
@@ -11,7 +11,7 @@ import "./team.css";
   const [openModal, setOpenModal] = useState(false)
 
 
-const Team = () => {
+const Team:React.FC = () => {
 
   return (
     <div id="test">
