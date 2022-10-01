@@ -11,7 +11,7 @@ import "./team.css";
   const [openModal, setOpenModal] = useState(false)
 
 
-const Team:React.FC = () => {
+const Team = () => {
 
   return (
     <div id="test">
