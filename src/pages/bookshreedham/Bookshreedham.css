@@ -1,0 +1,69 @@
+.quote-discription{
+    text-align: center;
+}
+.book-apartment-container{
+
+    padding: 50px;
+}
+.table-content{
+
+    margin-top: 10px;
+}
+.quote-title{
+    margin-bottom: 80px;
+}
+.booksri img{
+    height: 70% !important;
+}
+
+@media(min-width:900px){
+    .booksri img{
+        width: 712px;
+        height: 70% !important;
+    }  
+}
+.top-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 532px;
+}
+.mr{
+    margin: 0px 144px;
+}
+.bs .card img , .bs .features-title{
+    display: none;
+}
+.features-content {
+    margin-left: 32px;
+}
+.ud .card img , .ud .card p{
+    display: none;
+}
+.ud .card .card-title{
+    margin-top: 12px;
+}
+.bs .card {
+    border: none;
+    margin: 0;
+    width: 22%;
+}
+@media(max-width:900px){
+    .mr{
+        margin: 12px !important;
+        text-align: justify;
+    }
+    .mr .quote-title{
+        padding: 0px;
+    }
+    .bs .card{
+        width: 100%;
+    }
+    .ffs{
+        margin-left: 0px;
+    }
+
+}    .booksri{
+    height: auto !important;
+    margin-bottom: 34px;
+}

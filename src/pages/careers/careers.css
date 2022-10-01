@@ -1,0 +1,27 @@
+.box{
+    /* box-shadow: 6px 4px 8px 8px gray; */
+    padding:0 0 0 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.root{
+    margin: 0 0 0 0;
+    display: flex;
+    align-items: center;
+    padding:0 0 0 0;
+}
+@media(max-width:900px){
+    .form-group{
+        width: 100%;
+        padding-left: 0;
+    }
+    
+}
+.form-group{
+    width: 100% !important;
+}
+.form-label{
+    margin-left: 44px;
+}

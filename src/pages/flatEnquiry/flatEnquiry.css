@@ -1,0 +1,33 @@
+.heading{
+
+    margin: 40px;
+}
+.form-group{
+    margin: 10px;
+    width: 600px;
+    padding-left: 50px;
+    
+}
+.booking-form{
+    margin: auto;
+    margin-bottom: 50px;
+}
+.sb{
+    margin-top: 24px;
+}
+.mxf form{
+    margin: 12px;
+}
+@media(min-width:992px){
+    .mxf{
+        width: 40% !important;
+    }
+
+}
+@media(max-width:992px){
+
+    .mxf label{
+        margin-left: 0px;
+    }
+
+}

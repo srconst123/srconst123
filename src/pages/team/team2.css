@@ -1,0 +1,39 @@
+tr{
+
+    /* margin-left: 50px; */
+    /* margin:0 0 2rem 0; */
+    /* padding: 0 0px 60px 0;  */
+    
+}
+
+.tab{
+    padding: 0 30px 0 0; 
+}
+ul{
+    margin-left:50px
+}
+
+table{
+    margin:0 0 2rem 0;
+    margin-left:0rem;
+
+}
+
+#test{
+    height:220px;
+}
+
+.newTable{
+    display: flex;
+    flex-direction: row;
+}
+
+.para{
+    padding:0 .5rem 0 0;
+    /* border: 3px solid red ; */
+}
+
+img{
+    max-width: 100%;
+    height:auto;
+}

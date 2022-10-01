@@ -1,0 +1,259 @@
+.footer-content {
+    color: white;
+    display: flex;
+    font-family: 'Avenir-Medium';
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+    position: relative;
+    overflow: hidden;
+    width: 95%;
+    margin: auto;
+
+}
+.liks a{
+    text-decoration: none;
+    color: white;
+}
+.left-footer {
+    width: 50%;
+    float: left;
+}
+.cdiv{
+    display: none;
+}
+
+.foot {
+    width: 100%;
+    display: grid;
+    margin-top: 44px;
+    background-color: #003B4B;
+}
+
+.form1 {
+    position: relative;
+    width: 100%;
+}
+
+.sub-heading {
+    padding-top: 50px;
+    font-size: 1.2rem;
+}
+
+.sub-heading-items {
+    display: flex;
+    flex-direction: row;
+}
+
+li img {
+    margin-right: 10px;
+}
+
+.sub-heading-items ul {
+    list-style-type: none;
+    padding: 0;
+    margin-right: 35px;
+    font-size: 1rem;
+}
+
+.e-mail {
+    display: flex;
+}
+
+.social-links ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1rem;
+}
+
+.text {
+    font-size: 1rem;
+    margin-bottom: 25px;
+}
+
+.right-footer {
+    position: relative;
+    margin-left: 50px;
+    /* border:3px solid red; */
+    /* display: inline-block; */
+    float: left;
+    width: 100%;
+}
+
+.right-footer input {
+    width: auto;
+    height: 35px;
+    border: 1px solid white;
+    background-color: #003B4B;
+    margin-top: 25px;
+    margin-right: 2%;
+    padding-left: 2%;
+}
+
+.get-details {
+    display: flex;
+    flex-direction: row;
+}
+
+.right-footer input:nth-child(3) {
+    width: -moz-available;
+}
+
+.right-footer button {
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    margin-top: 50px;
+}
+
+.right-footer button::placeholder {
+    color: white;
+}
+
+.right-footer input::placeholder {
+    color: white;
+}
+
+/* @media (max-width: 1366px) {
+    .left-footer{
+        width: 80%;
+    }
+    .footer-content{
+        margin-left: 2%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+  
+    .right-footer,
+    .left-footer,
+    .third {
+        width:50%;
+    }
+} */
+
+
+@media (max-width: 900px) {
+    .foot {
+        width: 100%;
+        margin: auto;
+        background-color: #003B4B;
+        margin-top: 5rem;
+    }
+
+    .footer-content {
+        color: white;
+        display: flex;
+        font-family: 'Avenir-Medium';
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 1rem;
+        position: relative;
+        width: 90%;
+        margin: auto;
+
+    }
+    .ff input{
+        width: 100% !important;
+    }
+
+    .left-footer {
+        width: 100%;
+        float: left;
+    }
+
+    .form1 {
+        position: relative;
+        width: 100%;
+    }
+
+    .sub-heading {
+        font-size: 1.2rem;
+    }
+
+    .sub-heading-items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    li img {
+        margin-right: 10px;
+    }
+
+    .sub-heading-items ul {
+        list-style-type: none;
+        padding: 0;
+        margin-right: 35px;
+        margin-left: 0;
+        font-size: 1rem;
+    }
+
+    .e-mail {
+        display: flex;
+    }
+
+    .social-links ul {
+        list-style-type: none;
+        padding: 0;
+        font-size: 1rem;
+        margin: 24px 0px;
+    }
+
+    .text {
+        font-size: 1rem;
+        margin-bottom: 25px;
+    }
+
+    .right-footer {
+       margin: 0px;
+        width: 100%;
+    }
+
+    .right-footer input {
+        width: auto;
+        height: 35px;
+        border: 1px solid white;
+        background-color: #003B4B;
+        margin-top: 25px;
+        margin-right: 2%;
+        padding-left: 2%;
+        color: white;
+    }
+
+    .get-details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right-footer input:nth-child(3) {
+        width: -moz-available;
+    }
+
+    .right-footer button {
+        max-height: 100%;
+        max-width: 100%;
+        display: block;
+        color: black;
+        background-color: white;
+        border: 1px solid white;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    .right-footer button::placeholder {
+        color: white;
+    }
+
+    .right-footer input::placeholder {
+        color: white;
+    }
+
+
+}
+
+.imgcl img{
+    width: 100%;
+}

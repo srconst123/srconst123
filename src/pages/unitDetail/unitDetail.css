@@ -1,0 +1,30 @@
+.unit-detail{
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+    height: 420px;
+    align-items: center;
+}
+.unit-detail td{
+    width: 50%;
+    margin-left: 78px;
+}
+@media(max-width:992px){
+    .unit-detail{
+        flex-direction: column;
+        margin: 0px;
+    }
+    .unit-detail td{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .unit-detail img{
+        max-width: 96% !important;
+    }
+    .mrff{
+        margin-top: 40%;
+    }
+    .ud{
+        margin: 0px;
+    }
+}

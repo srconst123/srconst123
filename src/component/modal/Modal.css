@@ -1,0 +1,51 @@
+.dflex{
+    display: flex;
+    flex-direction: column;
+    width: 214px;
+    margin: auto;
+}
+.modal-body{
+    display: flex;
+    justify-content: space-between;
+
+}
+.fsm{
+   font-size: 12px;
+   padding: 6px; 
+}
+.cm{
+    position: absolute;
+    top: 100%;
+    /* bottom: 10%; */
+    /* width: 90vw;
+    height: 90vh; */
+    text-align: center;
+    /* filter: blur(8px); */
+    /* backdrop-filter: blur(4px); */
+    /* background: white; */
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.modal-body .mlmodal, .modal-body .mrmodal{
+    margin-left: 34px;
+}
+@media(max-width:900px){
+    .modal-body{
+        flex-direction: column ;
+    }
+    .modal-body .mlmodal, .modal-body .mrmodal{
+        margin-left: 14px;
+    }
+    .modal-body table tr{
+        flex-direction: row;
+    }
+}
+.mdm{
+    box-shadow: 4px 48px 84px 2px rgb(17, 47, 67);
+    background-color: white;
+    z-index: 22;
+}
