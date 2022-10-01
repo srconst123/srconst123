@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React,{ useState } from "react";
 import Footer from '../../component/footer/Footer';
 import Header from '../../component/header/Header';
 import Cards from '../../component/cards/Cards';
@@ -18,6 +18,10 @@ const Team = () => {
 
 
   const [openModal, setOpenModal] = useState(false)
+
+
+const Team = () => {
+
   return (
     <div id="test">
       <Header />
@@ -169,5 +173,5 @@ const Team = () => {
     </div>
 
   )
-}
+}}
 export default Team
