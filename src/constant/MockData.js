@@ -140,11 +140,11 @@ export const completedProjects = [
     title: "Construction Of R & R Colony NTPC At Residential & None Residential Buildings",
     description: " This site is located in Barkagoan, Hazaribag, Jharkhand (Client-MBECL, Kolkata)"
   },
-  {
-    url: "assets/images/sitakunj.jpg",
-    title: "Sita Kunj , Jamshedpur",
-    description: " This site is located in Kharangajha , Jamshedpur , Jharkhand. The best looking building on Tata Road. Currently occupied primaril by Sri Ram Construction Hotes. The Retail outlets have been handpicked to offer the best of shopping and leisure to the visitors in Jamshedpur"
-  },
+  // {
+  //   url: "assets/images/sitakunj.jpg",
+  //   title: "Sita Kunj , Jamshedpur",
+  //   description: " This site is located in Kharangajha , Jamshedpur , Jharkhand. The best looking building on Tata Road. Currently occupied primaril by Sri Ram Construction Hotes. The Retail outlets have been handpicked to offer the best of shopping and leisure to the visitors in Jamshedpur"
+  // },
   {
     url: "assets/images/sitakunjk.jpg",
     title: "Sita Kunj Karamtoli, Ranchi",
