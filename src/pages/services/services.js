@@ -10,13 +10,6 @@ import GeneralTabs from '../../component/tabs/Tabs';
 import './services.css';
 
 const Services = () =>{
-
-    
-
-    
-    
-
-    const [openModal, setOpenModal] = useState(false)
     return(
         <>
       <Header />

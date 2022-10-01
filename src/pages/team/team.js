@@ -9,17 +9,6 @@ import Axios from "axios";
 import GeneralTabs from '../../component/tabs/Tabs';
 import "./team.css";
 
-
-const Team = () => {
-
-
-
-
-
-
-  const [openModal, setOpenModal] = useState(false)
-
-
 const Team = () => {
 
   return (
@@ -173,5 +162,5 @@ const Team = () => {
     </div>
 
   )
-}}
+}
 export default Team
