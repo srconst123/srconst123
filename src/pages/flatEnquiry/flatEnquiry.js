@@ -9,7 +9,7 @@ import './flatEnquiry.css';
 import emailjs from '@emailjs/browser';
 
 
-const flatEnquiry = ({ closemodal }) =>{
+const FlatEnquiry = ({ closemodal }) =>{
     const [userName, setUserName] = useState("");
     const [userEmail, setUserEmail] = useState("");
     const [userMobile, setUserMobile] = useState("");
@@ -101,4 +101,4 @@ const flatEnquiry = ({ closemodal }) =>{
         </>
     )
 }
-export default flatEnquiry
+export default FlatEnquiry
