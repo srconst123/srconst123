@@ -15,9 +15,7 @@ const Team = () => {
 
 
 
-
-
-  const [openModal, setOpenModal] = useState(false)
+//   const [openModal, setOpenModal] = useState(false)
 
 
 const Team = () => {
