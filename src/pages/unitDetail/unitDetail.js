@@ -10,7 +10,7 @@ import { useLocation } from "react-router-dom";
 
 
 
-const unitDetail = (props) =>{
+const UnitDetail = (props) =>{
 
     const location = useLocation();
     const data = location.state;
@@ -59,4 +59,4 @@ const unitDetail = (props) =>{
 
     )
 }
-export default unitDetail
+export default UnitDetail

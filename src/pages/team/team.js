@@ -10,7 +10,7 @@ import GeneralTabs from '../../component/tabs/Tabs';
 import "./team.css";
 
 
-const team = () => {
+const Team = () => {
 
 
 
@@ -170,4 +170,4 @@ const team = () => {
 
   )
 }
-export default team
+export default Team

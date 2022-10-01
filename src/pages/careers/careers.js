@@ -12,8 +12,8 @@ import emailjs from '@emailjs/browser';
 // import  Router  from "react-router-dom";
 
 
-const careers = () =>{
-
+const Careers = () =>{
+    const [openModal, setOpenModal] = useState(false)
     const [userName, setUserName] = useState("");
     const [userEmail, setUserEmail] = useState("");
     const [userMobile, setUserMobile] = useState("");
@@ -54,7 +54,6 @@ const careers = () =>{
     };
     
 
-    const [openModal, setOpenModal] = useState(false)
     return(
         <>
       <Header />
@@ -93,4 +92,4 @@ const careers = () =>{
 
     )
 }
-export default careers
+export default Careers

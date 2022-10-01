@@ -9,7 +9,7 @@ import Axios from "axios";
 import GeneralTabs from '../../component/tabs/Tabs';
 import './services.css';
 
-const services = () =>{
+const Services = () =>{
 
     
 
@@ -85,4 +85,4 @@ const services = () =>{
 
     )
 }
-export default services
+export default Services
