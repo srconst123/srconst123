@@ -1,5 +1,5 @@
 .footer-content {
-    color: white;
+    color: black;
     display: flex;
     font-family: 'Avenir-Medium';
     flex-direction: row;
@@ -27,7 +27,7 @@
     width: 100%;
     display: grid;
     margin-top: 44px;
-    background-color: #003B4B;
+    background-color: white;
 }
 
 .form1 {
@@ -83,9 +83,10 @@ li img {
 .right-footer input {
     width: auto;
     height: 35px;
-    border: 1px solid white;
-    background-color: #003B4B;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: white;
     margin-top: 25px;
+    color: black !important;
     margin-right: 2%;
     padding-left: 2%;
 }
@@ -103,18 +104,18 @@ li img {
     max-height: 100%;
     max-width: 100%;
     display: block;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: black !important;
     border: 1px solid white;
     margin-top: 50px;
 }
 
 .right-footer button::placeholder {
-    color: white;
+    color: black;
 }
 
 .right-footer input::placeholder {
-    color: white;
+    color: black;
 }
 
 /* @media (max-width: 1366px) {

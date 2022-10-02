@@ -117,7 +117,7 @@
     padding-right: 5rem;
     padding-left: 5rem;
     padding-top: 1rem;
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
 
 }
 
@@ -126,10 +126,10 @@
     width: 500px;
 } */
 .project-content {
-    background-color: #003B4B;
+    background-color: #ffffff;
     height: 30rem;
     width: 30rem;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 1rem;
     overflow: hidden;
     text-align:left;
@@ -159,6 +159,9 @@
     }
     .project-detail{
         padding:  34px !important;
+    }
+    .hcpmin{
+        height: 26rem;
     }
     
     .about-us-title {
@@ -450,6 +453,9 @@
         color: #003B4B;
         margin-bottom: 1rem;
         text-align: center;
+    }
+    .mts .carousel-item img{
+        margin-top: 94px;
     }
 
 }

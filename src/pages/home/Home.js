@@ -4,7 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import { Container, Row, Col } from 'react-bootstrap';
 
 import GenericCarousel from '../../component/carousel/carousel';
-import { Projects, completedProjects } from '../../constant/MockData';
+import { Projects, completedProjects ,cardslide,cardslide1,cardslide2 } from '../../constant/MockData';
 import Header from '../../component/header/Header';
 import Footer from '../../component/footer/Footer';
 import Cards from '../../component/cards/Cards';
@@ -35,13 +35,28 @@ const Home = () => {
         </div>
       </div>
       <div className="completed-projects">
-        <div className="projects-content w-100">
+        <div className="projects-content hcpmin w-100">
           <div className="project-title">Completed Projects</div>
-          <Cards data={completedProjects} />
+          <Carousel>
+
+          <Carousel.Item>
+          <Cards data={cardslide} />
+          </Carousel.Item>
+          
+          <Carousel.Item>
+          <Cards data={cardslide1} />
+          </Carousel.Item>
+          
+          <Carousel.Item>
+          <Cards data={cardslide2} />
+          </Carousel.Item>
+
+          
+          </Carousel>
         </div>
       </div>
       <div className="project-detail">
-        <div className="project-carousel">
+        <div  className="project-carousel mts">
           <Carousel>
             <Carousel.Item>
               <img

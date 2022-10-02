@@ -1,12 +1,29 @@
 .logo img{
     width: 100px;
 }
+@media(max-width:480px){
+    .logo img{
+        width: 60px;
+    }
+    .navbtn button{
+        font-size: 14px;
+    }
+    .bname{
+        font-size: 12px;
+    }
+}
+.bname{
+    color: black;
+}
+.navc a{
+    color: black !important;
+}
 
 /* .navbar-nav{
     margin-left: 400px;
 } */
 .navbar{
-    background-color: #003B4B !important;
+    background-color: white !important;
 }
 .navbar-collapse{
     margin-left: 190px;
@@ -24,7 +41,7 @@
     
 }
 .navbar-nav a:hover{
-    color: white !important;
+    color: black !important;
 }
 /* @media (max-width: 1366px) {
     .container{

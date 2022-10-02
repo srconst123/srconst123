@@ -10,8 +10,8 @@ const About = () => {
   return (
     <>
       <Header />
-      <GenericCarousel carouselSlidesData={Projects} />
-
+      <div className="aboutC">      <GenericCarousel carouselSlidesData={Projects} />
+      </div>
       {/* <div  className="image-text">Building trust, dedication and perfection for 2+ decades.</div> */}
 
       <div className='tab-detail'>
@@ -49,52 +49,52 @@ const About = () => {
         </div>
       </div>
       <div className="customer-speak">
-       <div className='customer'>
-       <Carousel variant="dark">
-          <Carousel.Item>
-          <img
+        <div className='customer'>
+          <Carousel variant="dark">
+            <Carousel.Item>
+              <img
                 className="d-block w-100"
                 src="assets/images/cro1.jpg"
                 alt="First slide"
                 height="300px"
                 width="400px"
               />
-            <Carousel.Caption>
-              <h5>First slide label</h5>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-          <img
+              <Carousel.Caption>
+                <h5>First slide label</h5>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
                 className="d-block w-100"
                 src="assets/images/slide11.jpeg"
                 alt="First slide"
                 height="300px"
                 width="400px"
               />
-            <Carousel.Caption>
-              <h5>Second slide label</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-          <img
+              <Carousel.Caption>
+                <h5>Second slide label</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
                 className="d-block w-100"
                 src="assets/images/cro1.jpg"
                 alt="First slide"
                 height="300px"
                 width="400px"
               />
-            <Carousel.Caption>
-              <h5>Third slide label</h5>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
-       </div>
-      
+              <Carousel.Caption>
+                <h5>Third slide label</h5>
+                <p>
+                  Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
+        </div>
+
 
       </div>
       <div className="af"><Footer /></div>

@@ -8,6 +8,9 @@ import Tables from '../../component/table/table';
 import './Bookshreedham.css';
 import GeneralTabs from '../../component/tabs/Tabs';
 import Carousel from 'react-bootstrap/Carousel';
+import GenericCarousel from '../../component/carousel/carousel';
+import { Projects, completedProjects } from '../../constant/MockData';
+
 
 
 
@@ -18,48 +21,7 @@ const Bookshreedham = () =>{
     return(
         <>
       <Header />
-      <div className="top-image booksri">
-      <Carousel >
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src="assets/images/shreeDham-hd.jpg"
-                alt="First s slide"
-                height="300px"
-                width="400px"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src="assets/images/shreeDham-hd.jpg"
-                alt="First s slide"
-                height="300px"
-                width="400px"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src="assets/images/shreeDham-hd.jpg"
-                alt="First s slide"
-                height="300px"
-                width="400px"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src="assets/images/shreeDham-hd.jpg"
-                alt="First s slide"
-                height="300px"
-                width="400px"
-              />
-            </Carousel.Item>
-          </Carousel>
-        {/* <img src="assets/images/shreeDham-hd.jpg" alt="about" height="600px" /> */}
-        <div style={{display:'none'}} className="project-image-text">Shree Dham brings you 1, 2, & 3 bedroom apartments in Ranchi.</div>
-      </div>
+      <div className="booknowdiv"><GenericCarousel carouselSlidesData={Projects} /></div>
 
       <div className="welcome-quote-container mr">
         <div className="welcome-quote-content">

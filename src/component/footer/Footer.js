@@ -54,12 +54,22 @@ const Footer = () => {
 
             <h4>QUICKLINKS</h4>
             <div className="sub-heading-items">
-              <ul className='liks'>
+              {/* <ul className='liks'>
                 <a href="/projects"><li><div>PROJECTS</div></li></a>
                 <a href="/services"><li>SERVICES</li></a>
                 <a href="/about"><li>ABOUT</li></a>
                 
-              </ul>
+              </ul> */}
+              <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Linkedln</li>
+              <li>Pinterest</li>
+              <li>YouTube</li>
+
+
+            </ul>
               <ul>
                 <li><img src="assets/images/phone.svg" alt="phone" /> <a href="tel:+919234681459"></a>+919234681459</li>
                 <li className='e-mail'><img src="assets/images/email.svg" alt="email" /><a href="mailTo:enquiry@sriramconstruction.com"></a>enquiry@sriramconstruction.com</li>
@@ -67,10 +77,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="social-links">
-            <ul>
-              <li>Facebook</li>
-              <li>Twitter</li>
-            </ul>
+
           </div>
           <div className="text">
             Privacy Policy <br /> SRI RAM CONSTRUCTION 2022.  <br /> All Rights Reserved
@@ -85,7 +92,7 @@ const Footer = () => {
               <input type="text" className='form1' name='mobile' onChange={(e) => { setUserMobile(e.target.value) }} placeholder='MOBILE NUMBER' />
 
               <input type="text" name='message' onChange={(e) => { setUserMessage(e.target.value) }} placeholder='MESSAGE' />
-              <button type='submit' onClick={submitEnquiry}>SUBMIT</button>
+              <button type='submit' className='btn btn-default' onClick={submitEnquiry}>SUBMIT</button>
             </form>
           </div>
         </div>

@@ -12,11 +12,11 @@ const Header = () => {
         <div className="logo">
           <img src="assets/images/logo.png" alt="logo" />
         </div>
-        <Navbar.Brand href="#home">SRI RAM CONSTRUCTION</Navbar.Brand>
+        <Navbar.Brand href="#home"><span className="bname">SRI RAM CONSTRUCTION</span></Navbar.Brand>
         <div className="navbtn"><Navbar.Toggle aria-controls="responsive-navbar-nav" />
         </div>
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="me-auto navc">
             <Nav.Link href="/">HOME</Nav.Link>
             <Nav.Link href="/about">ABOUT</Nav.Link>
             <Nav.Link href="/services">SERVICES</Nav.Link>

@@ -32,6 +32,9 @@ height: 30rem;
     position: relative;
     top: -122px;
  } */
+ /* .carousel-item{
+    margin-right: 0;
+ } */
 
 @media (max-width: 900px) {
 
@@ -54,8 +57,9 @@ height: 30rem;
         display: none;
     }
     .carousel-inner{
-        height: 22rem;
+        height: 28rem;
     }
+ 
     .carousel-indicators [data-bs-target] {
         margin-bottom: 2rem;
     }
@@ -85,17 +89,38 @@ height: 30rem;
         font-size: 12px;
     }
 }
+.ctext{
+    display: flex;
+    flex-direction: column;
+}
+.ct2{
+    font-size: 26px !important;
+}
+.chead{
+    font-family: auto !important;
+    position: relative;
+    top: -106px;
+}
 .sh{
     font-size: 38px;
     font-family: sans-serif;
     font-weight: 500;
     
 }
+.subhead{
+    margin-top: 44px;
+    display: flex;
+    flex-direction: column;
+}
+.suhead{
+    font-size: 16px;
+    position: relative;
+}
 .mb-24{
     margin-bottom: 24px;
 }
 @media(min-width:992px){
     .wh{
-        width: 686px;
+        width: 100%;
     }
 }

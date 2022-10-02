@@ -183,6 +183,59 @@ export const completedProjects = [
   
 ]
 
+export const cardslide =[
+  {
+    url: "assets/images/a4.jpg",
+    title: "Sri Ram Krishna Enclave",
+    description: ""
+  },
+  {
+    url: "assets/images/a5.jpg",
+    title: "Sri Ram Tower (Phase I)",
+    description: ""
+  },
+  {
+    url: "assets/images/sriram.jpg",
+    title: "Sri Ram Apartment",
+    description: ""
+  },
+]
+export const cardslide1 =[
+  {
+    url: "assets/images/relect.jpg",
+    title: "Rural Electrification work of East singhbum,Jharkhand",
+    description: ""
+  },
+  {
+    url: "assets/images/10kmpcc.jpg",
+    title: "10 km PCC Road and Boundary wall at jharsiguda,  Orrisa",
+    description: ""
+  },
+  {
+    url: "assets/images/rrc.jpg",
+    title: "Construction of R & R colony NTPC at Road ,Culvet and Drainagework BarkaGaon ,Hazaribagh (Client - MBECL,Kolkata",
+    description: ""
+  },
+]
+export const cardslide2 =[
+  {
+    url: "assets/images/hsms.jpg",
+    title: "NTPC Barkagaon Health center ",
+    description: ""
+  },
+  {
+    url: "assets/images/ms.jpg",
+    title: "NTPC Barkagaon  Middle School",
+    description: ""
+  },
+  {
+    url: "assets/images/school.jpg",
+    title: "NTPC Barkagaon Sr. Secondary School",
+    description: ""
+  },
+]
+
+
 export const readyToMoveData = [
   {
     eventKey: "Shree dham",
@@ -249,47 +302,89 @@ export const providesData = [
   },
   {
     url: "assets/images/land.jpg",
-    title: "Landscape Garden",
+    title: "Car Parking Space",
     imgHeight: "200px",
   },
 
   {
     url: "assets/images/car.jpg",
-    title: "Car Parking",
+    title: "High Speed Modern Lift",
     imgHeight: "200px",
   },
   {
     url: "assets/images/security.jpg",
-    title: "24 X 7 Security",
+    title: "Round The Clock Security",
     imgHeight: "200px",
   },
   {
     url: "assets/images/pool.jpg",
-    title: "Pool/Billiards",
+    title: "Lighning Arrester",
     imgHeight: "200px",
   },
   {
     url: "assets/images/",
-    title: "Badminton Court",
+    title: "Table Tennis",
     imgHeight: "200px",
   },
   {
     url: "assets/images/",
-    title: "High Speed Lift",
+    title: "Pool / Billiards",
     imgHeight: "200px",
   },
   {
     url: "assets/images/lighten.jpg",
-    title: "Lightning Arrester",
+    title: "Badminton Court",
     imgHeight: "200px",
   },
   {
     url: "assets/images/tennis.jpg",
-    title: "Table Tennis",
+    title: "Aerobics,Jacuzies & Steam Bath",
+    imgHeight: "200px",
+  },
+  {
+    url: "assets/images/tennis.jpg",
+    title: "Club & Gym",
+    imgHeight: "200px",
+  },
+  {
+    url: "assets/images/tennis.jpg",
+    title: "Landscape Garden",
+    imgHeight: "200px",
+  },
+  {
+    url: "assets/images/tennis.jpg",
+    title: "Childrem's Play Area",
+    imgHeight: "200px",
+  },
+  {
+    url: "assets/images/tennis.jpg",
+    title: "Rain Water Harvesting",
+    imgHeight: "200px",
+  },
+  {
+    url: "assets/images/tennis.jpg",
+    title: "Standard Type Sanitary & Drainage installlation",
+    imgHeight: "200px",
+  },
+  {
+    url: "assets/images/tennis.jpg",
+    title: "24 hrs. Generator Backup",
+    imgHeight: "200px",
+  },
+  {
+    url: "assets/images/tennis.jpg",
+    title: "Intercom Connectivity Flat to main Security gate",
+    imgHeight: "200px",
+  },
+  {
+    url: "assets/images/tennis.jpg",
+    title: "Excellent Landscaping & Illumination",
     imgHeight: "200px",
   }
 
 ]
+
+
 
 export const flatData = [
 
