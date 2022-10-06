@@ -3,6 +3,7 @@ import './Tabs.css';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import Cards from '../cards/Cards';
+import Cardsp from '../cards/Cardsp';
 import { ongoingProjectsData } from '../../constant/MockData';
 import { completedProjects } from '../../constant/MockData';
 
@@ -17,7 +18,7 @@ const GeneralTabs = () => {
       fill
     >
       <Tab eventKey="ongoing" title="Ongoing-Projects">
-        <Cards data={ongoingProjectsData} />
+        <Cardsp data={ongoingProjectsData} />
       </Tab>
       <Tab eventKey="sale" title="Plot For Sale">
         <div> <div className="text-center">

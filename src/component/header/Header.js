@@ -7,7 +7,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const Header = () => {
   return (
-    <Navbar collapseOnSelect sticky='top' expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect sticky='top' expand="lg" bg="dark" variant="light">
       <Container>
         <div className="logo">
           <img src="assets/images/logo.png" alt="logo" />

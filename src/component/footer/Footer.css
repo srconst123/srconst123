@@ -105,7 +105,7 @@ li img {
     max-width: 100%;
     display: block;
     color: white;
-    background-color: black !important;
+    /* background-color: black !important; */
     border: 1px solid white;
     margin-top: 50px;
 }
@@ -141,12 +141,12 @@ li img {
     .foot {
         width: 100%;
         margin: auto;
-        background-color: #003B4B;
+        /* background-color: #003B4B; */
         margin-top: 5rem;
     }
 
     .footer-content {
-        color: white;
+        color: black;
         display: flex;
         font-family: 'Avenir-Medium';
         flex-direction: column;
@@ -216,12 +216,12 @@ li img {
     .right-footer input {
         width: auto;
         height: 35px;
-        border: 1px solid white;
-        background-color: #003B4B;
+        border: 1px solid ;
+        /* background-color: #003B4B; */
         margin-top: 25px;
         margin-right: 2%;
         padding-left: 2%;
-        color: white;
+        color: black;
     }
 
     .get-details {
@@ -237,19 +237,19 @@ li img {
         max-height: 100%;
         max-width: 100%;
         display: block;
-        color: black;
-        background-color: white;
-        border: 1px solid white;
+        /* color: black; */
+        /* background-color: white; */
+        border: 1px solid ;
         margin-top: 1rem;
         margin-bottom: 3rem;
     }
 
     .right-footer button::placeholder {
-        color: white;
+        color: black;
     }
 
     .right-footer input::placeholder {
-        color: white;
+        color: black;
     }
 
 
@@ -257,4 +257,34 @@ li img {
 
 .imgcl img{
     width: 100%;
+}
+.e-mail svg{
+    margin-top: 5px;
+}
+.e-mail a{
+    margin-right:12px;
+}
+.phone a{
+    margin-right:10px;
+}
+
+.clc img{
+    width:222px;
+    height:144px;
+}
+.cldiv{
+    display:flex;
+    flex-wrap:wrap;
+}
+.moct{
+    font-size:34px;
+    margin-top:22px;
+}
+@media(min-width:900px){
+    .cldiv{
+        display:flex;
+        flex-wrap:wrap;
+        width:734px;
+        margin:auto;
+    }
 }

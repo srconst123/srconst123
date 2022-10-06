@@ -120,6 +120,9 @@
     /* margin-top: 3rem; */
 
 }
+.mts{
+    width:100%;
+}
 
 /* .project-carousel{
     height: 450px;
@@ -128,7 +131,7 @@
 .project-content {
     background-color: #ffffff;
     height: 30rem;
-    width: 30rem;
+    width: 100%;
     color: rgb(0, 0, 0);
     padding: 1rem;
     overflow: hidden;
@@ -177,6 +180,7 @@
         display: flex;
         flex-direction: column;
         text-align: center;
+        margin-top:124px;
         align-items: center;
         justify-content: center;
     }
@@ -220,10 +224,10 @@
     }
 
     .project-content {
-        background-color: #003B4B;
+        background-color: white !important;
         height: 100%;
         width: 100%;
-        color: white;
+        color: black !important;
         padding: 1rem;
         overflow: hidden;
         
@@ -237,7 +241,7 @@
 
     .project-description {
         font-size: 16px;
-        margin-top: 50px;
+        margin-top: 150px;
     }
 
     .project-title {
@@ -313,10 +317,10 @@
     }
 
     .project-content {
-        background-color: #003B4B;
+        background-color: white;
         height: 100%;
         width: 100%;
-        color: white;
+        color: black;
         padding: 1rem;
         overflow: hidden;
         

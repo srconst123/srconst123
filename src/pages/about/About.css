@@ -174,7 +174,7 @@
 }
 
 .customer .carousel-inner {
-    height: 25rem;
+    height: 16rem;
 
 }
 
@@ -199,7 +199,7 @@
 
 
     .tab-detail {
-        margin: 42px auto;
+        margin: 142px auto;
         width: 100%;
         background-color: #e6f1f5;
         display: flex;
@@ -372,4 +372,24 @@
 }
 .af .cdiv{
     display: block !important;
+}
+.cs-text{
+    width:50%;
+    height:30vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:auto;
+}
+.customer-speak{
+    background-color:#e6f1f5;
+}
+.csh1{
+    color:#003B4B;
+    padding-top:64px;
+    font-weight:600;
+}
+.cs-text h5{
+    font-family: cursive !important;
+    font-style: italic;
 }

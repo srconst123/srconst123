@@ -39,11 +39,26 @@ const Footer = () => {
   };
   return (
     <div className='foot'>
+    <hr/>
       <div className="cdiv bg-white">
         <div className="cld text-center"><h4 className="headc">Some of our esteemed Clients</h4>
         </div>
-        <div className="imgcl">
-          <img src="assets/images/client.png" alt="email" />
+        <div className='mnaincldiv'>
+        <div className="cldiv">
+          <div className='clc'><img src="assets/images/1c.jpg" alt="email" /></div>
+          <div className='clc'><img src="assets/images/2c.jpeg" alt="email" /></div>
+          <div className='clc'><img src="assets/images/3c.png" alt="email" /></div>
+          <div className='clc'><img src="assets/images/4c.jpg" alt="email" /></div>
+          <div className='clc'><img src="assets/images/5c.png" alt="email" /></div>
+          <div className='clc'><img src="assets/images/6c.png" alt="email" /></div>
+          <div className='clc'><img src="assets/images/7c.jpg" alt="email" /></div>
+          <div className='clc'><img src="assets/images/8c.png" alt="email" /></div>
+          <div className='clc'><img src="assets/images/9c.png" alt="email" /></div>
+          <div className='clc'><img src="assets/images/10c.png" alt="email" /></div>
+        </div>
+        <div className="cld moct text-center"><h4 className="headc">and many other satisfied clients</h4></div>
+
+         
         </div>
       </div>
 
@@ -71,8 +86,13 @@ const Footer = () => {
 
             </ul>
               <ul>
-                <li><img src="assets/images/phone.svg" alt="phone" /> <a href="tel:+919234681459"></a>+919234681459</li>
-                <li className='e-mail'><img src="assets/images/email.svg" alt="email" /><a href="mailTo:enquiry@sriramconstruction.com"></a>enquiry@sriramconstruction.com</li>
+                <li className='phone'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+  <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+  <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+</svg> <a href="tel:+919234681459"></a>+919234681459</li>
+                <li className='e-mail'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+</svg><a href="mailTo:enquiry@sriramconstruction.com"></a>enquiry@sriramconstruction.com</li>
               </ul>
             </div>
           </div>
@@ -80,7 +100,7 @@ const Footer = () => {
 
           </div>
           <div className="text">
-            Privacy Policy <br /> SRI RAM CONSTRUCTION 2022.  <br /> All Rights Reserved
+            Privacy Policy <br /> SRI RAM CONSTRUCTION 2022.  <br /> &#169; All Rights Reserved
           </div>
         </div>
         <div className="right-footer">
@@ -92,7 +112,7 @@ const Footer = () => {
               <input type="text" className='form1' name='mobile' onChange={(e) => { setUserMobile(e.target.value) }} placeholder='MOBILE NUMBER' />
 
               <input type="text" name='message' onChange={(e) => { setUserMessage(e.target.value) }} placeholder='MESSAGE' />
-              <button type='submit' className='btn btn-default' onClick={submitEnquiry}>SUBMIT</button>
+              <button type='submit' className='btn btn-secondary bgcc' onClick={submitEnquiry}>SUBMIT</button>
             </form>
           </div>
         </div>

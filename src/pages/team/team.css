@@ -8,7 +8,7 @@
 }
 
 .team-img{
-    padding:50px;
+    /* padding:50px; */
     /* margin:200px; */
     width: 100%;
    /* height:200px;*/
@@ -43,32 +43,47 @@
 .tc{
     text-align: center;
     justify-content: center;
+    flex-direction:column;
+    margin-left: 112px;
+    margin:0px;
 }
-
+.ndiv{
+    border:1px solid black;
+    border-radius:14px;
+    margin:22px 0px;
+    /* background-color:black; */
+    /* color:white; */
+    font-size:24px;
+    padding:22px;
+}
 .contact-us-title{
     font-size: 35px;
-    color: white;
+    /* color: white; */
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     padding-top: 50px;
     margin-right: 100px;
     text-align: center;
 }
+.timg{
+    margin:16px;
+}
 
 .contact-us-details{
-    width: 80%;
+    width: 100%;
     margin-top: 50px;
+
    
 }
 .contact-us-details > div{
     margin-top: 10px;
-    color: white;
+    color: black;
     font-size: 18px;
     font-family: 'AvenirLTStd-Book';
 }
 .email a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 /* .serviceTitle{
     margin: 80px;
@@ -101,5 +116,11 @@ table{
     table tr{
         display: flex;
         flex-direction: column;
+    }
+}
+@media(max-width:600px){
+    .contact-us-details{
+        width: 90%;
+        margin:auto;
     }
 }

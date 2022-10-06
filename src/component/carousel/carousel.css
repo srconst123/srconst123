@@ -125,3 +125,16 @@ height: 30rem;
         width: 100%;
     }
 }
+@media(max-width:900px){
+    .chead{
+        top:-12px;
+        font-size:24px !important;
+    }
+
+}
+@media(max-width:600px){
+    .carousel-indicators , .carousel-control-prev, .carousel-control-next {
+        display:none !important;
+    }
+
+}

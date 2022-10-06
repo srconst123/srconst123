@@ -16,7 +16,7 @@
 
 .contact-us-title{
     font-size: 35px;
-    color: white;
+    color: black;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     padding-top: 50px;
@@ -34,7 +34,7 @@
         margin-bottom: -80px;
     }
     .ddd{
-        margin-left: 22px !important;
+        margin-left: 0px !important;
         text-align: justify;
     }
     .contact-us-content{

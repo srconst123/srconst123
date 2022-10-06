@@ -20,23 +20,60 @@ const Team = () => {
       </div>
 
       <div className="welcome-quote-container tc">
+      <div className='team-img'>          <div style={{ width: '264px' }} className="tab timg "><img src="assets/images/founder.jpg" alt="founder" height="30px" />
+
+<div style={{ padding: '0px'}} className='ndiv'> Sanjay Kumar
+  <br/>Company CEO
+  {/* <p>Contact No: 99999999</p>
+  <p>Email: abc@abc.com</p> */}
+
+
+</div>
+
+</div></div>
         <div className="team-img">
-          <div style={{ width: '264px',border:'1px solid black' }} className="tab timg "><img src="assets/images/founder.jpg" alt="founder" height="30px" />
-
-            <div> Sanjay Kumar
-              <p>Company CEO</p>
-              {/* <p>Contact No: 99999999</p>
-              <p>Email: abc@abc.com</p> */}
 
 
-            </div>
+          <div style={{ width: '264px' }} className="tab timg "><img src="assets/images/2nd.jpeg" alt="founder" height="30px" />
 
-          </div>
+<div className='ndiv'> Kunal Kumar
+  {/* <p>Company CEO</p> */}
+  {/* <p>Contact No: 99999999</p>
+  <p>Email: abc@abc.com</p> */}
+
+
+</div>
+
+</div>
+
+<div style={{ width: '264px' }} className="tab timg "><img src="assets/images/3rd.jpeg" alt="founder" height="30px" />
+
+<div className='ndiv'> Soni Mahapatra
+  {/* <p>Company CEO</p> */}
+  {/* <p>Contact No: 99999999</p>
+  <p>Email: abc@abc.com</p> */}
+
+
+</div>
+
+</div>
+
+<div style={{ width: '264px' }} className="tab timg "><img src="assets/images/4th.jpeg" alt="founder" height="30px" />
+
+<div className='ndiv'> Loknath Tiwari
+  {/* <p>Company CEO</p> */}
+  {/* <p>Contact No: 99999999</p>
+  <p>Email: abc@abc.com</p> */}
+
+
+</div>
+
+</div>
 
           <div style={{ width: '264px', height: '274px' }} className="tab timg "> <img src="assets/images/pankaj.jpg" alt="sales" height="300px" />
 
-            <div style={{border:'1px solid black'}}> Pankaj Choudhary
-              <p>Sales Executive </p>
+            <div className='ndiv' style={{border:'1px solid black'}}> Pankaj Choudhary
+              {/* <p>Sales Executive </p> */}
               {/* <p>Contact No : 99999999</p>
               <p>Email: abc@abc.com</p> */}
             </div>

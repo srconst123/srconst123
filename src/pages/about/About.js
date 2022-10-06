@@ -50,41 +50,46 @@ const About = () => {
       </div>
       <div className="customer-speak">
         <div className='customer'>
+          <div className='heading-cspeak'> <h3 className='text-center csh1'>Customer's Speak</h3></div>
           <Carousel variant="dark">
             <Carousel.Item>
-              <img
+              {/* <img
                 className="d-block w-100"
                 src="assets/images/cro1.jpg"
                 alt="First slide"
                 height="300px"
                 width="400px"
-              />
+              /> */}
+              <div className='cs-text'> <h5 className='text-center'>“Very proud to be a part of Sri Ram Constructions family. I had a very courteous and professional relationship with the staff of Monarch”</h5></div>
+              
               <Carousel.Caption>
                 <h5>First slide label</h5>
                 <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img
+              {/* <img
                 className="d-block w-100"
                 src="assets/images/slide11.jpeg"
                 alt="First slide"
                 height="300px"
                 width="400px"
-              />
+              /> */}
+              <div className='cs-text'> <h5 className='text-center'>“We are happy and pleased to be owning a flat at Sri Ram Constructions. Staff were friendly and helpful through out the journey”</h5></div>
               <Carousel.Caption>
                 <h5>Second slide label</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img
+              {/* <img
                 className="d-block w-100"
                 src="assets/images/cro1.jpg"
                 alt="First slide"
                 height="300px"
                 width="400px"
-              />
+              /> */}
+              <div className='cs-text'> <h5 className='text-center'>“Its been a great experience with co-operative staff. Great services!”</h5></div>
               <Carousel.Caption>
                 <h5>Third slide label</h5>
                 <p>
@@ -92,6 +97,39 @@ const About = () => {
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
+            <Carousel.Item>
+              {/* <img
+                className="d-block w-100"
+                src="assets/images/cro1.jpg"
+                alt="First slide"
+                height="300px"
+                width="400px"
+              /> */}
+              <div className='cs-text'> <h5 className='text-center'>“Thank you for being co-operative and understanding throughout.”</h5></div>
+              <Carousel.Caption>
+                <h5>Third slide label</h5>
+                <p>
+                  Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              {/* <img
+                className="d-block w-100"
+                src="assets/images/cro1.jpg"
+                alt="First slide"
+                height="300px"
+                width="400px"
+              /> */}
+              <div className='cs-text'> <h5 className='text-center'>“They are very helpful and co-ordinating till registration.”</h5></div>
+              <Carousel.Caption>
+                <h5>Third slide label</h5>
+                <p>
+                  Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+
           </Carousel>
         </div>
 

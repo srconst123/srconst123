@@ -16,7 +16,7 @@ const Cards = ({ data}) => {
                 <Card.Img variant="top" src={url} height={imgHeight} />
                 <Card.Body>
                   <Card.Title>{title}</Card.Title>
-                  <Card.Text>{description}</Card.Text> 
+                  <Card.Text>{description}<a href="/bookshreedham" >Book Now</a></Card.Text> 
                 </Card.Body>
               </Card>
             );
