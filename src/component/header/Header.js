@@ -10,7 +10,7 @@ const Header = () => {
     <Navbar collapseOnSelect sticky='top' expand="lg" bg="dark" variant="light">
       <Container>
         <div className="logo">
-          <img src="assets/images/logo.png" alt="logo" />
+          <a href='/' ><img src="assets/images/logo.png" alt="logo" /></a>
         </div>
         <Navbar.Brand href="#home"><span className="bname">SRI RAM CONSTRUCTION</span></Navbar.Brand>
         <div className="navbtn"><Navbar.Toggle aria-controls="responsive-navbar-nav" />
