@@ -21,7 +21,7 @@ const FlatEnquiry = ({ closemodal }) =>{
 
     const submitEnquiry = () => {
     
-        Axios.post('http://localhost:3001/api/book_apt', {
+        Axios.post('https://srconst.herokuapp.com/api/book_apt', {
             userName:userName,
             userEmail:userEmail, 
             userMobile:userMobile, 
