@@ -14,7 +14,7 @@ const Footer = () => {
 
   const submitEnquiry = () => {
 
-    Axios.post('http://localhost:3001/api/create', {
+    Axios.post('https://srconst.herokuapp.com/api/create', {
       userName: userName,
       userEmail: userEmail,
       userMobile: userMobile,
