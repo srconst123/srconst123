@@ -21,7 +21,7 @@ const FlatEnquiry = ({ closemodal }) =>{
 
     const submitEnquiry = () => {
     
-        Axios.post('https://srconst.herokuapp.com/api/book_apt', {
+        Axios.post('https://srconst.000webhostapp.com/api/booking.php', {
             userName:userName,
             userEmail:userEmail, 
             userMobile:userMobile, 
