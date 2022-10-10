@@ -14,12 +14,25 @@ const Footer = () => {
 
   const submitEnquiry = () => {
 
-    Axios.post('https://srconst.000webhostapp.com/api/enquiry.php', {
+//     Axios.post('https://srconst.000webhostapp.com/api/enquiry.php', {
+//       userName: userName,
+//       userEmail: userEmail,
+//       userMobile: userMobile,
+//       userMessage: userMessage
+//     })
+  fetch('https://srconst.000webhostapp.com/api/enquiry.php', {
+  method: 'POST',
+  headers: {
+    'Accept': 'application/json',
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify({
       userName: userName,
       userEmail: userEmail,
       userMobile: userMobile,
       userMessage: userMessage
-    })
+  })
+});
   }
   const form = useRef();
 
