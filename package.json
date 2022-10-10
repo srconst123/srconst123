@@ -1,6 +1,7 @@
 {
   "name": "sri_ram_constructions",
   "version": "0.1.0",
+  "proxy":"https://srconst.000webhostapp.com/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
