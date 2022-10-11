@@ -60,7 +60,7 @@ const About = () => {
                 height="300px"
                 width="400px"
               /> */}
-              <div className='cs-text'> <h5 className='text-center'>“Very proud to be a part of Sri Ram Constructions family. I had a very courteous and professional relationship with the staff of Monarch”</h5></div>
+              <div className='cs-text'> <h5 className='text-center'>“Very proud to be a part of Sri Ram Constructions family. I had a very courteous and professional relationship with the staff of Sri Ram Construction”</h5></div>
               
               <Carousel.Caption>
                 <h5>First slide label</h5>
