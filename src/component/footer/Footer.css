@@ -303,3 +303,17 @@ li img {
     margin: auto;
   }
 }
+.siconsf img{
+    width: 28px;
+}
+.siconsf{
+    display: flex;
+    flex-direction: column;
+}
+.siconsf img{
+    margin: 8px;
+}
+.siconsf a{
+    text-decoration: none;
+    color: black;
+}

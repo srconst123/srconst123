@@ -26,7 +26,10 @@
     background-color: white !important;
 }
 .navbar-collapse{
-    margin-left: 190px;
+    margin-left: 140px;
+}
+.yicon{
+    height: 25px;
 }
 .navbar-brand{
     /* font-weight: 700; */
@@ -66,5 +69,16 @@ width: 100%;
 @media(max-width:370px){
     .navbar-brand{
         margin-left: 8px;
+    }
+}
+.sicons img{
+    width: 28px;
+}
+.sicons a{
+    margin: 4px;
+}
+@media(max-width:1400px){
+    .sicons{
+        display: none;
     }
 }
