@@ -24,6 +24,32 @@ export const Projects = [
     description: "Ample playing area for children to re-energize."
   }
 ];
+export const Projectabout = [
+  {
+    url: "assets/images/abc1.jpeg",
+    alt: "a1 hd help text",
+    label: "SHREE DHAM",
+    description: "Our premiere project located near Sri Ram Krishna Enclave, Edalhatu, Morabadi, Ranchi."
+  },
+  {
+    url: "assets/images/abc2.jpeg",
+    alt: "banner hd help text",
+    label: "AMENITIES",
+    description: "Enjoy the city life in this beauty, located at the heart of the city."
+  },
+  {
+    url: "assets/images/abc3.jpeg",
+    alt: "banner hd help text",
+    label: "PARKING AREA",
+    description: "Dedicated parking space for each flat."
+  },
+  {
+    url: "assets/images/abc4.jpeg",
+    alt: "banner hd help text",
+    label: "GREEN PARK",
+    description: "Ample playing area for children to re-energize."
+  }
+];
 
 export const AboutusData = {
   vision: "Our vision gives us a sense of direction and destination to be respectable building contractors delivering beyond expectations, always. It captures our aspiration of being the best at everything we do. Our mission is to procure projects at competitive pricing, provide safe working conditions and deliver quality work within reasonable time.",

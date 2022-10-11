@@ -48,13 +48,13 @@
     margin:0px;
 }
 .ndiv{
-    border:1px solid black;
+    /* border:1px solid black; */
     border-radius:14px;
     margin:22px 0px;
     /* background-color:black; */
     /* color:white; */
     font-size:24px;
-    padding:22px;
+    padding:0px;
 }
 .contact-us-title{
     font-size: 35px;

@@ -3,14 +3,14 @@ import Carousel from 'react-bootstrap/Carousel';
 import Footer from '../../component/footer/Footer';
 import Header from '../../component/header/Header';
 import GenericCarousel from '../../component/carousel/carousel';
-import { Projects, completedProjects } from '../../constant/MockData';
+import { Projects, completedProjects,Projectabout } from '../../constant/MockData';
 import './About.css';
 
 const About = () => {
   return (
     <>
       <Header />
-      <div className="aboutC">      <GenericCarousel carouselSlidesData={Projects} />
+      <div className="aboutC">      <GenericCarousel carouselSlidesData={Projectabout} />
       </div>
       {/* <div  className="image-text">Building trust, dedication and perfection for 2+ decades.</div> */}
 

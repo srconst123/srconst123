@@ -24,7 +24,7 @@ const Careers = () =>{
 
     const submitEnquiry = () => {
     
-        Axios.post('https://srconst.000webhostapp.com/api/career.php', {
+        Axios.post('/api/career.php', {
             userName:userName,
             userEmail:userEmail, 
             userMobile:userMobile, 

@@ -3,7 +3,7 @@ import Footer from '../../component/footer/Footer';
 import Header from '../../component/header/Header';
 import Cards from '../../component/cards/Cards';
 import { providesData } from '../../constant/MockData';
-import Modals from '../../component/modal/Modal';
+import Modals from '../../component/modal/Modals';
 import Tables from '../../component/table/table';
 import './Bookshreedham.css';
 import GeneralTabs from '../../component/tabs/Tabs';

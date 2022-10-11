@@ -19,6 +19,9 @@
     width: 50%;
     float: left;
 }
+.ql{
+    font-size: 1.2rem;
+}
 .cdiv{
     display: none;
 }
@@ -276,6 +279,13 @@ li img {
     display:flex;
     flex-wrap:wrap;
 }
+.flink a{
+    text-decoration: none;
+    color: black;
+}
+.flink svg{
+    margin-right: 8px;
+}
 .moct{
     font-size:34px;
     margin-top:22px;
@@ -284,7 +294,12 @@ li img {
     .cldiv{
         display:flex;
         flex-wrap:wrap;
-        width:734px;
+        width:1110px;
         margin:auto;
     }
+}
+@media(max-width:900px){
+  .cldiv .clc{
+    margin: auto;
+  }
 }

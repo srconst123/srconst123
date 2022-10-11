@@ -21,7 +21,7 @@ const FlatEnquiry = ({ closemodal }) =>{
 
     const submitEnquiry = () => {
     
-        Axios.post('https://srconst.000webhostapp.com/api/booking.php', {
+        Axios.post('/api/booking.php', {
             userName:userName,
             userEmail:userEmail, 
             userMobile:userMobile, 

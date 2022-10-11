@@ -72,7 +72,7 @@ const Team = () => {
 
           <div style={{ width: '264px', height: '274px' }} className="tab timg "> <img src="assets/images/pankaj.jpg" alt="sales" height="300px" />
 
-            <div className='ndiv' style={{border:'1px solid black'}}> Pankaj Choudhary
+            <div className='ndiv' > Pankaj Choudhary
               {/* <p>Sales Executive </p> */}
               {/* <p>Contact No : 99999999</p>
               <p>Email: abc@abc.com</p> */}
