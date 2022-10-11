@@ -20,7 +20,7 @@ const Projects = () => {
           <Carousel.Item >
             <img
               className="d-block w-100"
-              src="assets/images/hd1.jpg"
+              src="assets/images/1-hd.jpg"
               alt="First s slide"
               height="300px"
               width="400px"
@@ -29,7 +29,7 @@ const Projects = () => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="assets/images/hd1.jpg"
+              src="assets/images/2-hd.jpeg"
               alt="First s slide"
               height="300px"
               width="400px"
@@ -38,7 +38,7 @@ const Projects = () => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="assets/images/hd1.jpg"
+              src="assets/images/3-hd.jpeg"
               alt="First s slide"
               height="300px"
               width="400px"
@@ -47,7 +47,7 @@ const Projects = () => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="assets/images/hd1.jpg"
+              src="assets/images/4-hd.jpg"
               alt="First s slide"
               height="300px"
               width="400px"

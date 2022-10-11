@@ -16,6 +16,9 @@
 .aboutC .project-image-button{
     display: none;
 }
+.aboutC .chead{
+    display: none;
+}
 .card-text{
     text-align: justify;
 }

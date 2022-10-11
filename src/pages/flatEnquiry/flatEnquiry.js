@@ -42,7 +42,7 @@ const FlatEnquiry = ({ closemodal }) =>{
       e.preventDefault();
         alert('Message Sent Successfully !!!')
   
-      emailjs.sendForm('service_dj0iwui', 'template_72nw09o', form.current, '58iU9kgT6iY3Hgiuz')
+      emailjs.sendForm('service_1ljk3ms', 'template_o8z978x', form.current, '2Wdzn5AwiUWjOCwbD')
         .then((result) => {
           console.log(result.text);
           console.log('Request Sent Successfully !!! We will get in touch with you')
