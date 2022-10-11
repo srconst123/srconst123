@@ -38,7 +38,7 @@ const Services = () =>{
         <td>
             <div className=" form-group simg col">
               
-              <img src="assets/images/projectmanagement.jpg" alt="founder" height="300px" />
+              <img src="assets/images/projectManagement.jpg" alt="founder" height="300px" />
               
             </div>
             </td>
