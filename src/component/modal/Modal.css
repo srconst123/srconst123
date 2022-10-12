@@ -7,6 +7,7 @@
 .modal-body{
     display: flex;
     justify-content: space-evenly;
+    padding:0px;
 
 }
 
