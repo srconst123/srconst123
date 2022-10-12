@@ -10,6 +10,7 @@
 
 }
 
+
 .fsm{
    font-size: 12px;
    padding: 6px; 
@@ -44,6 +45,12 @@
     }
     .modal-body table tr{
         flex-direction: row;
+    }
+        .modal-body table tr{
+        padding:4px;
+    }
+    .modal-body .btn{
+    font-size:10px
     }
 }
 .mdm{
