@@ -31,7 +31,7 @@
 
 }
 .modal-body .mlmodal, .modal-body .mrmodal{
-    margin-left: 34px;
+    margin-left: 0px;
 }
 @media(max-width:900px){
     .modal-body{
