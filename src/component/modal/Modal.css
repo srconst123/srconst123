@@ -40,6 +40,7 @@
     }
     .modal-body .mlmodal, .modal-body .mrmodal{
         margin-left: 14px;
+        margin:auto;
     }
     .modal-body table tr{
         flex-direction: row;
