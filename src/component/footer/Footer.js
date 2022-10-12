@@ -12,7 +12,7 @@ const Footer = () => {
   const [userMobile, setUserMobile] = useState("");
   const [userMessage, setUserMessage] = useState("");
   
-  const headers{
+  const headers={
                'Access-Control-Allow-Origin': '*'
                }
 
