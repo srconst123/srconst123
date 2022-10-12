@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Footer.css';
 // import Container from 'react-bootstrap/Container';
 // import Navbar from 'react-bootstrap/Navbar';
-import Axios from 'axios';
+import Axios { AxiosHeaders } from 'axios';
 import emailjs from '@emailjs/browser';
 
 import { useRef } from 'react';
@@ -14,7 +14,7 @@ const Footer = () => {
 
   const submitEnquiry = () => {
 
-    Axios.post('/api/enquiry.php', {
+    Axios.post('/api/enquiry.php',AxiosHeaders, {
       userName: userName,
       userEmail: userEmail,
       userMobile: userMobile,
