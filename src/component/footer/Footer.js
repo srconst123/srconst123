@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Footer.css';
 // import Container from 'react-bootstrap/Container';
 // import Navbar from 'react-bootstrap/Navbar';
-import Axios { AxiosHeaders } from 'axios';
+import Axios from 'axios';
 import emailjs from '@emailjs/browser';
 
 import { useRef } from 'react';
@@ -15,12 +15,15 @@ const Footer = () => {
   const submitEnquiry = () => {
 
     Axios.post('https://srconst.000webhostapp.com/api/test.php',
-      AxiosHeaders, {
+      {
       userName: userName,
       userEmail: userEmail,
       userMobile: userMobile,
       userMessage: userMessage
-    })
+    },
+     headers:{
+               'Access-Control-Allow-Origin': '*'
+               })
   }
   const form = useRef();
 
