@@ -46,7 +46,7 @@
     .modal-body table tr{
         flex-direction: row;
     }
-        .modal-body table tr{
+        .modal-body table tr td{
         padding:4px;
     }
     .modal-body .btn{
