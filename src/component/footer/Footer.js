@@ -14,7 +14,8 @@ const Footer = () => {
 
   const submitEnquiry = () => {
 
-    Axios.post('/api/enquiry.php',AxiosHeaders, {
+    Axios.post('https://srconst.000webhostapp.com/api/test.php',
+      AxiosHeaders, {
       userName: userName,
       userEmail: userEmail,
       userMobile: userMobile,
