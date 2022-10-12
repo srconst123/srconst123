@@ -11,6 +11,10 @@ const Footer = () => {
   const [userEmail, setUserEmail] = useState("");
   const [userMobile, setUserMobile] = useState("");
   const [userMessage, setUserMessage] = useState("");
+  
+  const headers{
+               'Access-Control-Allow-Origin': '*'
+               }
 
   const submitEnquiry = () => {
 
@@ -20,10 +24,7 @@ const Footer = () => {
       userEmail: userEmail,
       userMobile: userMobile,
       userMessage: userMessage
-    },
-     headers:{
-               'Access-Control-Allow-Origin': '*'
-               })
+    },headers)
   }
   const form = useRef();
 
