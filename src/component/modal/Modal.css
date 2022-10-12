@@ -6,8 +6,11 @@
 }
 .modal-body{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
+}
+.modal-title{
+  margin:auto;
 }
 .fsm{
    font-size: 12px;
