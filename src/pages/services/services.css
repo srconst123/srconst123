@@ -29,10 +29,20 @@
     .form-group img{
         max-width: 30%;
     }
+    .sc{
+        flex-direction: column;
+    }
+    .sm{
+        margin-left: 0px !important;
+    }
+    .mtc{
+        text-align: center;
+    }
 }
 .simg img{
-    width: 100px !important;
+    width: 190px !important;
     height: auto;
+    margin-top: 22px;
 }
 .sm{
     margin-left: 34px;
@@ -41,4 +51,29 @@
 }
 .sm h2{
     font-size: 16px;
+}
+.services h2{
+    font-size: 2rem;
+    margin-top: 52px;
+
+}
+.services p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+.sc{
+    display: flex;
+}
+.stitle{
+    margin: 44px 0;
+}
+.stu{
+    color: #56BBD0;
+}
+.stb{
+    color: #0F2137;
+}
+.mh{
+    color: #0F2137 !important;
 }

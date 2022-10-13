@@ -42,9 +42,9 @@ const GenericCarousel = ({ carouselSlidesData, height = "100%", width = "100%" }
           <p className="sub-text">LAKEFRONT RESIDENENCES</p>
         </div> */}
         <div className="text-center ctext wh sh"><span className="chead">SHREE DHAM</span>  </div>
-        <div  className="text-center subhead ct2 wh sh "><span className="suhead">Sri Ram Construction Brings You</span><span className="sh1">1, 2 and 3 bedroom apartments located on Adalhatu Road , Morabadi , Ranchi</span></div>
+        <div  className="text-center subhead ct2 wh sh "><span className="suhead none ">Sri Ram Construction Brings You</span><span className="sh1 sh">1, 2 & 3 Bedroom Apartments <br /> Morabadi , Ranchi</span></div>
         
-        <div className="text-center ct2 sh wh mb-24">starting from 3200sqft</div>
+        <div className="text-center cts2 sh wh mb-24">Starting From 3200sqft</div>
         <div className="project-image-button text-center  "><a className='btn btn-lg btn-light min-btn' href='/Bookshreedham'>Book Now</a></div>
       </div>
     </div>

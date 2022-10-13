@@ -41,16 +41,21 @@ const Careers = () =>{
     const sendEmail = (e) => {
       e.preventDefault();
     //   alert('Message Sent Successfully !!!')
-  
-      emailjs.sendForm('service_1ljk3ms', 'template_3zmbxhm', form.current, '2Wdzn5AwiUWjOCwbD')
-        .then((result) => {
-            console.log(result.text);
-            console.log('Request Sent Successfully !!! We will get in touch with you')
-            alert('Message sent successfully')
-            // Router.reload()
-        }, (error) => {
-            console.log(error.text);
-        });
+        if (userName==""||userEmail==""||userMobile=="") {
+            alert('Please fill all the required fields !!!')
+        } else {
+            emailjs.sendForm('service_1ljk3ms', 'template_3zmbxhm', form.current, '2Wdzn5AwiUWjOCwbD')
+            .then((result) => {
+                console.log(result.text);
+                console.log('Request Sent Successfully !!! We will get in touch with you')
+                alert('Request Sent Successfully !!! We will get in touch with you')
+                // Router.reload()
+            }, (error) => {
+                console.log(error.text);
+                alert('Allowed file size is 50kb Please remove resume ')
+            });
+        }
+
     };
     
 

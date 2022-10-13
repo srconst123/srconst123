@@ -27,18 +27,27 @@ const Footer = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
+    console.log(userName)
+
     e.preventDefault();
     //   alert('Message Sent Successfully !!!')
+    if (userName==""||userEmail==""||userMobile==""||userMessage=="") {
+      alert('Please fill all the required fields !!!')
 
-    emailjs.sendForm('service_1ljk3ms', 'template_3zmbxhm', form.current, '2Wdzn5AwiUWjOCwbD')
+    }else{
+
+      emailjs.sendForm('service_1ljk3ms', 'template_3zmbxhm', form.current, '2Wdzn5AwiUWjOCwbD')
       .then((result) => {
         console.log(result.text);
         console.log('Request Sent Successfully !!! We will get in touch with you')
-        alert('Message sent successfully')
+        alert('Request Sent Successfully !!! We will get in touch with you')
         // Router.reload()
       }, (error) => {
         console.log(error.text);
       });
+    } 
+    
+
   };
   return (
     <div className='foot'>

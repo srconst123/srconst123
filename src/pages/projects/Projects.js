@@ -2,10 +2,12 @@ import React from 'react';
 import Footer from '../../component/footer/Footer';
 import Header from '../../component/header/Header';
 import Cards from '../../component/cards/Cards';
-import { featuresData } from '../../constant/MockData';
+import { featuresData ,ProjectsData} from '../../constant/MockData';
 import './Projects.css';
 import GeneralTabs from '../../component/tabs/Tabs';
 import Carousel from 'react-bootstrap/Carousel';
+import GenericCarousel from '../../component/carousel/carousel';
+
 
 
 
@@ -15,6 +17,7 @@ const Projects = () => {
   return (
     <>
       <Header />
+      <GenericCarousel carouselSlidesData={ProjectsData} />
       <div className="top-image projectc protop">
         <Carousel >
           <Carousel.Item >

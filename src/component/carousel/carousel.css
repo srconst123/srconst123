@@ -84,7 +84,7 @@ height: 30rem;
         height: 50%;
     }
     .sh{
-        font-size: 16px !important;
+        font-size: 24px !important;
     }
     .min-btn{
         font-size: 12px;
@@ -136,5 +136,19 @@ height: 30rem;
     .carousel-indicators , .carousel-control-prev, .carousel-control-next {
         display:none !important;
     }
+    .carousel{
+        height: 100%;
+        overflow: hidden;
+    }
+    .mr .quote-title{
+        margin-top: 22px !important;
+    }
+    .tab-detail{
+        margin: 22px auto !important;
+    }
+    .subhead{
+        margin-top: 14px;
+    }
+    
 
 }

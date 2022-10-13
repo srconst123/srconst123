@@ -40,17 +40,21 @@ const FlatEnquiry = ({ closemodal }) =>{
 
     const sendEmail = (e) => {
       e.preventDefault();
-        alert('Message Sent Successfully !!!')
-  
-      emailjs.sendForm('service_1ljk3ms', 'template_o8z978x', form.current, '2Wdzn5AwiUWjOCwbD')
-        .then((result) => {
-          console.log(result.text);
-          console.log('Request Sent Successfully !!! We will get in touch with you')
-          alert('Message sent successfully')
-          // Router.reload()
-        }, (error) => {
-          console.log(error.text);
-        });
+        // alert('Message Sent Successfully !!!')
+        if (userName==""||userEmail==""||userMobile==""||userMessage==""||userBlock==""||userFloor==""||userUnit=="") {
+            alert('Please fill all the required fields !!!')
+        } else {
+            emailjs.sendForm('service_1ljk3ms', 'template_o8z978x', form.current, '2Wdzn5AwiUWjOCwbD')
+            .then((result) => {
+              console.log(result.text);
+              console.log('Request Sent Successfully !!! We will get in touch with you')
+              alert('Request Sent Successfully !!! We will get in touch with you')
+              // Router.reload()
+            }, (error) => {
+              console.log(error.text);
+            });
+        }
+
     };
 
     return(

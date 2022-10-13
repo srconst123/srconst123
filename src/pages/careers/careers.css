@@ -17,6 +17,9 @@
         width: 100%;
         padding-left: 0;
     }
+    .form-label{
+        margin-left: 0px !important;
+    }
     
 }
 .form-group{

@@ -41,6 +41,7 @@ box-shadow:none;
     /* padding: 2rem; */
     font-family: 'AvenirLTStd-Book';
     font-size: 1rem;
+    line-height: 29px;
     color: #000000;
     letter-spacing: 0.8px;
     line-height: 1.5rem;
@@ -464,4 +465,12 @@ box-shadow:none;
         margin-top: 94px;
     }
 
+}
+@media(max-width:600px){
+    .about-us-content {
+        margin-top: 0px;
+    }
+    .modal-fullscreen .modal-body{
+        overflow-y: visible;
+    }
 }

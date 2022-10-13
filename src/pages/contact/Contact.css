@@ -29,6 +29,7 @@
         justify-content: center;
         align-items: center;
         /* margin-top: 62%; */
+
     }
     .contact-us-container{
         margin-bottom: -80px;
@@ -48,6 +49,10 @@
 
     .contact-us-content-description {
         margin-left: 34px;
+    }
+    .contact-us-title{
+        font-size: 28px !important;
+        margin-right: 0px !important;
     }
 }
 .contact-us-details{

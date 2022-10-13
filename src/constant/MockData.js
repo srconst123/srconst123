@@ -24,6 +24,32 @@ export const Projects = [
     description: "Ample playing area for children to re-energize."
   }
 ];
+export const ProjectsData = [
+  {
+    url: "assets/images/1-hd.jpg",
+    alt: "a1 hd help text",
+    label: "SHREE DHAM",
+    description: "Our premiere project located near Sri Ram Krishna Enclave, Edalhatu, Morabadi, Ranchi."
+  },
+  {
+    url: "assets/images/2-hd.jpeg",
+    alt: "banner hd help text",
+    label: "AMENITIES",
+    description: "Enjoy the city life in this beauty, located at the heart of the city."
+  },
+  {
+    url: "assets/images/3-hd.jpeg",
+    alt: "banner hd help text",
+    label: "PARKING AREA",
+    description: "Dedicated parking space for each flat."
+  },
+  {
+    url: "assets/images/4-hd.jpg",
+    alt: "banner hd help text",
+    label: "GREEN PARK",
+    description: "Ample playing area for children to re-energize."
+  }
+];
 export const Projectabout = [
   {
     url: "assets/images/abc1.jpg",

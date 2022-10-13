@@ -125,3 +125,6 @@
 .protop img{
     filter:brightness(0.8);
 }
+.projectc{
+    display: none !important;
+}
