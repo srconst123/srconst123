@@ -12,19 +12,17 @@ const Footer = () => {
   const [userMobile, setUserMobile] = useState("");
   const [userMessage, setUserMessage] = useState("");
   
-  const headers={
-               'Access-Control-Allow-Origin': '*'
-               }
+
 
   const submitEnquiry = () => {
 
-    Axios.post('https://srconst.000webhostapp.com/api/test.php',
+    Axios.post('/api/enquiry.php',
       {
       userName: userName,
       userEmail: userEmail,
       userMobile: userMobile,
       userMessage: userMessage
-    },headers)
+    })
   }
   const form = useRef();
 
