@@ -606,31 +606,31 @@ function LgModal() {
 
 
                                     <td>
-                                        <a href="/B10A" state={'10A'} className="btn fsm  btn-primary btn-sm"> 10A </a>
+                                        <a href="/B10A" state={'10A'} className="btn fsm f8 btn-primary btn-sm"> 10A </a>
                                     </td>
                                     <td>
-                                        <a href="/B10B" state={'10B'} className="btn fsm btn-primary btn-sm"> 10B </a>
+                                        <a href="/B10B" state={'10B'} className="btn fsm f8 btn-primary btn-sm"> 10B </a>
                                     </td>
                                     <td>
-                                        <a href="/B10C" state={'10C'} className="btn fsm btn-primary btn-sm"> 10C </a>
+                                        <a href="/B10C" state={'10C'} className="btn fsm f8 btn-primary btn-sm"> 10C </a>
                                     </td>
                                     <td>
-                                        <a href="/B10D" state={'10D'} className="btn fsm btn-primary btn-sm"> 10D </a>
+                                        <a href="/B10D" state={'10D'} className="btn fsm f8 btn-primary btn-sm"> 10D </a>
                                     </td>
                                     <td>
-                                        <a href="/B10E" state={'10E'} className="btn fsm btn-primary btn-sm"> 10E </a>
+                                        <a href="/B10E" state={'10E'} className="btn fsm f8 btn-primary btn-sm"> 10E </a>
                                     </td>
                                     <td>
-                                        <a href="/B10F" state={'10F'} className="btn fsm btn-primary btn-sm"> 10F </a>
+                                        <a href="/B10F" state={'10F'} className="btn fsm f8 btn-primary btn-sm"> 10F </a>
                                     </td>
                                     <td>
-                                        <a href="/B10G" state={'1D'} className="btn btn-primary btn-sm"> 10G </a>
+                                        <a href="/B10G" state={'1D'} className="btn fsm  f8 btn-primary btn-sm"> 10G </a>
                                     </td>
                                     <td>
-                                        <a href="/B10H" state={'1E'} className="btn btn-primary btn-sm"> 10H </a>
+                                        <a href="/B10H" state={'1E'} className="btn fsm f8 btn-primary btn-sm"> 10H </a>
                                     </td>
                                     <td>
-                                        <a href="/B10I" state={'1F'} className="btn btn-primary btn-sm"> 10I </a>
+                                        <a href="/B10I" state={'1F'} className="btn fsm f8 btn-primary btn-sm"> 10I </a>
                                     </td>
 
 
