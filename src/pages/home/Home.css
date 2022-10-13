@@ -7,7 +7,9 @@
     /* margin-top: 4rem; */
 
 }
-
+.navbar-toggler:focus{
+box-shadow:none;
+}
 .about-us-title {
     font-size: 38px;
     color: #003B4B;
