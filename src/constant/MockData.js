@@ -153,21 +153,21 @@ export const Faqs = [
 
 export const ongoingProjectsData = [
   {
-    eventKey: "Shree dham",
+    eventKey: "Shree dham ( 1/2/3 BHK Flats )",
     url: "assets/images/a1-hd.jpg",
-    title: "Shree Dham",
+    title: "Shree Dham (1/2/3 BHK Flats)",
     description: "This project is located in Green Park Area, 350m from Manya Place, Morabadi, Ranchi. We will have 2/3 BHK flats available here. We have all state-of-the-art facilities available here and you can enjoy city life at this place located in the heart of the city."
   },
   {
-    eventKey: "Jatra tower",
+    eventKey: "Jaitra Tower",
     url: "assets/images/a2-hd.jpg",
-    title: "Jatra Tower",
+    title: "Jaitra Tower ( 2/3 BHK Flats )",
     description: `This project is located in Vikash Nagar, Road No. 2, 500m from Singh More, Hatia, Ranchi. We will have 2/3 BHK flats available here. We have all state-of-the-art facilities available here and the scenic beauty of the city of Ranchi stand proudly behind it.`
   },
   {
-    eventKey: "Sri Ram Tower",
+    eventKey: "Sri Ram Tower Phase II ( 2/3 BHK Flats ) ",
     url: "assets/images/a3.jpg",
-    title: "Sri Ram Tower",
+    title: "Sri Ram Tower Phase II ( 2/3 BHK Flats )",
     description: `This project is located in Green Park Area, 350m from Manya Place, Morabadi, Ranchi. We will have 2/3 BHK flats available here. We have all state-of-the-art facilities available here and you can enjoy city life at this place located in the heart of the city.`
   }
 ]
@@ -290,17 +290,16 @@ export const cardslide2 =[
 
 export const readyToMoveData = [
   {
-    eventKey: "Shree dham",
-    url: "assets/images/a1-hd.jpg",
-    title: "Shree Dham",
-    description: `Our premiere project located near Sri Ram Krishna Enclave, Edalhatu, Morabadi, Ranchi. We have 1/2/3 BHK flats available here. We have all modern living facilities available here. Enjoy the city life in this beauty, located at the heart of the city.It is an upcoming project of Sri Ram Construction near Morabadi Ground.`
+    eventKey: "Shri Ram Krishna Enclave (3/4 BHK Flats)",
+    url: "assets/images/a4.jpg",
+    title: "Shri Ram Krishna Enclave (3/4 BHK Flats)",
+    description: `This site is located in Green Park Area, 350m from Manya Place, Morabadi, Ranchi.`
   },
   {
-    eventKey: "Jatra tower",
-    url: "assets/images/a2-hd.jpg",
-    title: "Jatra Tower",
-    description: `This project is located in Vikash Nagar, Road No. 2, 500m from Singh More, Hatia, Ranchi. We will have 2/3 BHK flats available here. We have all state-of-the-art facilities available here and the scenic beauty of the city of Ranchi stand proudly behind it.`
-  },
+    url: "assets/images/a5.jpg",
+    title: "Sri Ram Tower (Phase I)",
+    description: "This commercial cum residential tower is located in Gandhi Road, Dhanbad."
+  }
 
 ]
 export const featuresData = [

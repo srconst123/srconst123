@@ -1,15 +1,9 @@
 import  {useRef,useState} from "react";
 import Footer from '../../component/footer/Footer';
 import Header from '../../component/header/Header';
-import Cards from '../../component/cards/Cards';
-import { providesData } from '../../constant/MockData';
-import Modals from '../../component/modal/Modal';
-import Tables from '../../component/table/table';
 import Axios from "axios";
-import GeneralTabs from '../../component/tabs/Tabs';
 import "./careers.css";
 import emailjs from '@emailjs/browser';
-// import  Router  from "react-router-dom";
 
 
 const Careers = () =>{
@@ -18,9 +12,7 @@ const Careers = () =>{
     const [userEmail, setUserEmail] = useState("");
     const [userMobile, setUserMobile] = useState("");
     const [userResume, setUserResume] = useState("");
-    // const [userFloor, setUserFloor] = useState("");
-    // const [userMessage, setUserMessage] = useState("");
-    // const [userUnit, setUserUnit] = useState("");
+
 
     const submitEnquiry = () => {
     
@@ -40,7 +32,6 @@ const Careers = () =>{
 
     const sendEmail = (e) => {
       e.preventDefault();
-    //   alert('Message Sent Successfully !!!')
         if (userName==""||userEmail==""||userMobile=="") {
             alert('Please fill all the required fields !!!')
         } else {

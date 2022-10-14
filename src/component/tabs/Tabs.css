@@ -5,3 +5,9 @@
 .pfs img{
     width: 100%;
 }
+@media(min-width:900px){
+    .pfs img{
+        width: 60%;
+        border: 1px solid rgb(179, 178, 178);
+    }
+}

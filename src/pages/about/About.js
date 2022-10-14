@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import Footer from '../../component/footer/Footer';
 import Header from '../../component/header/Header';
 import GenericCarousel from '../../component/carousel/carousel';
-import { Projects, completedProjects,Projectabout } from '../../constant/MockData';
+import {Projectabout } from '../../constant/MockData';
 import './About.css';
 
 const About = () => {
@@ -12,8 +12,6 @@ const About = () => {
       <Header />
       <div className="aboutC">      <GenericCarousel carouselSlidesData={Projectabout} />
       </div>
-      {/* <div  className="image-text">Building trust, dedication and perfection for 2+ decades.</div> */}
-
       <div className='tab-detail'>
         <div className="experience-tab">
           <div className='num'>20+</div>
@@ -53,28 +51,13 @@ const About = () => {
           <div className='heading-cspeak'> <h3 className='text-center csh1'>Customer's Speak</h3></div>
           <Carousel variant="dark">
             <Carousel.Item>
-              {/* <img
-                className="d-block w-100"
-                src="assets/images/cro1.jpg"
-                alt="First slide"
-                height="300px"
-                width="400px"
-              /> */}
-              <div className='cs-text'> <h5 className='text-center'>“Very proud to be a part of Sri Ram Constructions family. I had a very courteous and professional relationship with the staff of Sri Ram Construction”</h5></div>
-              
+              <div className='cs-text'> <h5 className='text-center'>“Very proud to be a part of Sri Ram Constructions family. I had a very courteous and professional relationship”</h5></div> 
               <Carousel.Caption>
                 <h5>First slide label</h5>
                 <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              {/* <img
-                className="d-block w-100"
-                src="assets/images/slide11.jpeg"
-                alt="First slide"
-                height="300px"
-                width="400px"
-              /> */}
               <div className='cs-text'> <h5 className='text-center'>“We are happy and pleased to be owning a flat at Sri Ram Constructions. Staff were friendly and helpful through out the journey”</h5></div>
               <Carousel.Caption>
                 <h5>Second slide label</h5>
@@ -82,13 +65,6 @@ const About = () => {
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              {/* <img
-                className="d-block w-100"
-                src="assets/images/cro1.jpg"
-                alt="First slide"
-                height="300px"
-                width="400px"
-              /> */}
               <div className='cs-text'> <h5 className='text-center'>“Its been a great experience with co-operative staff. Great services!”</h5></div>
               <Carousel.Caption>
                 <h5>Third slide label</h5>
@@ -98,13 +74,6 @@ const About = () => {
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              {/* <img
-                className="d-block w-100"
-                src="assets/images/cro1.jpg"
-                alt="First slide"
-                height="300px"
-                width="400px"
-              /> */}
               <div className='cs-text'> <h5 className='text-center'>“Thank you for being co-operative and understanding throughout.”</h5></div>
               <Carousel.Caption>
                 <h5>Third slide label</h5>
@@ -114,13 +83,6 @@ const About = () => {
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              {/* <img
-                className="d-block w-100"
-                src="assets/images/cro1.jpg"
-                alt="First slide"
-                height="300px"
-                width="400px"
-              /> */}
               <div className='cs-text'> <h5 className='text-center'>“They are very helpful and co-ordinating till registration.”</h5></div>
               <Carousel.Caption>
                 <h5>Third slide label</h5>

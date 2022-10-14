@@ -5,7 +5,7 @@ import Tabs from 'react-bootstrap/Tabs';
 import Cards from '../cards/Cards';
 import Cardsp from '../cards/Cardsp';
 import { ongoingProjectsData } from '../../constant/MockData';
-import { completedProjects } from '../../constant/MockData';
+import { completedProjects ,readyToMoveData} from '../../constant/MockData';
 
 
 const GeneralTabs = () => {
@@ -26,17 +26,20 @@ const GeneralTabs = () => {
           <h4 style={{color:'#003b4b'}} className="head">Shree Ram Vatika</h4>
            <span>Location Advantage ...</span>
            <hr />
-           <ul className='pfs'>
-            <li>1.50 km from Hindustani Dhaba</li>
-            <li>2.30 km from Gandhi Nagar Chowk</li>
+           <div className='pfs'>
+            <p>1.50 km from Hindustani Dhaba</p>
+            <p>2.30 km from Gandhi Nagar Chowk</p>
             <img src="assets/images/plots.jpeg" alt="" />
-           </ul>
+           </div>
         </div></div>
       </Tab>
       <Tab eventKey="ready" title="Ready To Move">
-        <div>Ready To Move</div>
+      <Cards data={readyToMoveData} />
       </Tab>
       <Tab eventKey="sold" title="Completed Projects">
+      <Cards data={completedProjects} />
+      </Tab>
+      <Tab eventKey="upcomming" title="Upcomming Projects">
       <Cards data={completedProjects} />
       </Tab>
     </Tabs>

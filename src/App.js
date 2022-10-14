@@ -1,5 +1,4 @@
-import React, {useState} from 'react';
-import $ from "jquery";
+import React from 'react';
 
 import './App.css';
 import { Routes, Route } from "react-router-dom";
@@ -183,8 +182,6 @@ import FlatEnquiry from './pages/flatEnquiry/flatEnquiry';
 import Careers from './pages/careers/careers';
 import Services from './pages/services/services';
 import Team from './pages/team/team';
-
-const cors = require('cors')
 
 const App = () => {
   

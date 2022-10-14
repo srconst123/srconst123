@@ -30,9 +30,7 @@ const Header = () => {
           <a href="#"><img src="assets/images/si1.png" alt="" /></a>
           <a href="#"><img src="assets/images/si2.png" alt="" /></a>
           <a href="#"><img src="assets/images/si3.jfif" alt="" /></a>
-          <a href="#"><img src="assets/images/si4.png" alt="" /></a>
           <a href="#"><img src="assets/images/si5.png" alt="" /></a>
-          <a href="#"><img className='yicon' src="assets/images/si6.png" alt="" /></a>
         </div>
       </Container>
     </Navbar>

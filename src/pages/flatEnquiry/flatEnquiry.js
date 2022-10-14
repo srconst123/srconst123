@@ -1,10 +1,7 @@
 import React, { useRef,useState} from "react";
 import Footer from '../../component/footer/Footer';
 import Header from '../../component/header/Header';
-import Cards from '../../component/cards/Cards';
-import { featuresData } from '../../constant/MockData';
 import Axios from 'axios';
-import GeneralTabs from '../../component/tabs/Tabs';
 import './flatEnquiry.css';
 import emailjs from '@emailjs/browser';
 
@@ -40,7 +37,6 @@ const FlatEnquiry = ({ closemodal }) =>{
 
     const sendEmail = (e) => {
       e.preventDefault();
-        // alert('Message Sent Successfully !!!')
         if (userName==""||userEmail==""||userMobile==""||userMessage==""||userBlock==""||userFloor==""||userUnit=="") {
             alert('Please fill all the required fields !!!')
         } else {

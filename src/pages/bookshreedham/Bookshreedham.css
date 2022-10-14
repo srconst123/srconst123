@@ -36,9 +36,9 @@ margin:auto;}
 .mr{
     margin: 0px 144px;
 }
-.bs .card img , .bs .features-title{
+/* .bs .card img , .bs .features-title{
     display: none;
-}
+} */
 .features-content {
     margin-left: 32px;
 }

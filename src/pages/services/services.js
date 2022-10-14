@@ -1,12 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import Footer from '../../component/footer/Footer';
 import Header from '../../component/header/Header';
-import Cards from '../../component/cards/Cards';
-import { providesData } from '../../constant/MockData';
-import Modals from '../../component/modal/Modal';
-import Tables from '../../component/table/table';
-import Axios from "axios";
-import GeneralTabs from '../../component/tabs/Tabs';
 import './services.css';
 
 const Services = () => {

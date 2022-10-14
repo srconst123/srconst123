@@ -100,7 +100,8 @@ height: 30rem;
 .chead{
     font-family: auto !important;
     position: relative;
-    top: -106px;
+    top: -94px;
+    font-weight: 600;
 }
 .sh{
     font-size: 38px;

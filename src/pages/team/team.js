@@ -22,7 +22,7 @@ const Team = () => {
       <div className="welcome-quote-container tc">
       <div className='team-img'>          <div style={{ width: '264px' }} className="tab timg "><img src="assets/images/founder.jpg" alt="founder" height="30px" />
 
-<div style={{ padding: '0px'}} className='ndiv'> Sanjay Kumar
+<div style={{ padding: '0px'}} className='ndiv mh'> Sanjay Kumar
   <br/>Company CEO
   {/* <p>Contact No: 99999999</p>
   <p>Email: abc@abc.com</p> */}
@@ -36,7 +36,7 @@ const Team = () => {
 
           <div style={{ width: '264px' }} className="tab timg "><img src="assets/images/2nd.jpeg" alt="founder" height="30px" />
 
-<div className='ndiv'> Kunal Kumar
+<div className='ndiv mh '> Kunal Kumar
   {/* <p>Company CEO</p> */}
   {/* <p>Contact No: 99999999</p>
   <p>Email: abc@abc.com</p> */}
@@ -48,7 +48,7 @@ const Team = () => {
 
 <div style={{ width: '264px' }} className="tab timg "><img src="assets/images/3rd.jpeg" alt="founder" height="30px" />
 
-<div className='ndiv'> Soni Mahapatra
+<div className='ndiv mh '> Soni Mahapatra
   {/* <p>Company CEO</p> */}
   {/* <p>Contact No: 99999999</p>
   <p>Email: abc@abc.com</p> */}
@@ -60,7 +60,7 @@ const Team = () => {
 
 <div style={{ width: '264px' }} className="tab timg "><img src="assets/images/4th.jpeg" alt="founder" height="30px" />
 
-<div className='ndiv'> Loknath Tiwari
+<div className='ndiv mh '> Loknath Tiwari
   {/* <p>Company CEO</p> */}
   {/* <p>Contact No: 99999999</p>
   <p>Email: abc@abc.com</p> */}
@@ -72,7 +72,7 @@ const Team = () => {
 
           <div style={{ width: '264px', height: '274px' }} className="tab timg "> <img src="assets/images/pankaj.jpg" alt="sales" height="300px" />
 
-            <div className='ndiv' > Pankaj Choudhary
+            <div className='ndiv mh' > Pankaj Choudhary
               {/* <p>Sales Executive </p> */}
               {/* <p>Contact No : 99999999</p>
               <p>Email: abc@abc.com</p> */}
