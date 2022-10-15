@@ -40,9 +40,6 @@
     margin-left: 0px;
 }
 @media(max-width:900px){
-    .modal-body{
-        flex-direction: column ;
-    }
     .modal-body .mlmodal, .modal-body .mrmodal{
         margin-left: 14px;
         margin:auto;

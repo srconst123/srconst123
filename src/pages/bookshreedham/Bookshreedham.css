@@ -42,17 +42,17 @@ margin:auto;}
 .features-content {
     margin-left: 32px;
 }
-.ud .card img , .ud .card p{
+/* .ud .card img , .ud .card p{
     display: none;
-}
+} */
 .ud .card .card-title{
     margin-top: 12px;
 }
-.bs .card {
+/* .bs .card {
     border: none;
     margin: 0;
     width: 22%;
-}
+} */
 @media(max-width:900px){
     .mr{
         margin: 12px !important;

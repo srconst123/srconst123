@@ -4,7 +4,7 @@ import Header from '../../component/header/Header';
 import Cards from '../../component/cards/Cards';
 import { providesData } from '../../constant/MockData';
 // import Modals from '../../component/modal/Modals';
-import Lgmodal from '../../component/modal/LgModal';
+import Lgmodal2 from '../../component/modal/LgModal2';
 
 import Tables from '../../component/table/table';
 import './Bookshreedham.css';
@@ -41,7 +41,7 @@ const Bookshreedham = () =>{
       <div className="unit-selector-container">
         
         {/* <Modals/> */}
-        <Lgmodal/>
+        <Lgmodal2/>
        </div>
        
       <Footer />

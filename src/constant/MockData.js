@@ -171,6 +171,14 @@ export const ongoingProjectsData = [
     description: `This project is located in Green Park Area, 350m from Manya Place, Morabadi, Ranchi. We will have 2/3 BHK flats available here. We have all state-of-the-art facilities available here and you can enjoy city life at this place located in the heart of the city.`
   }
 ]
+export const upcommingProjects = [
+  {
+    eventKey: "Shree dham ( 1/2/3 BHK Flats )",
+    url: "assets/images/uproject.jfif",
+    title: "Upcomming ...",
+    description: "..."
+  }
+]
 export const completedProjects = [
   {
     url: "assets/images/a4.jpg",
@@ -347,88 +355,88 @@ export const featuresData = [
 export const providesData = [
 
   {
-    url: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Fso%2Fcheck&psig=AOvVaw0s792D8rSk8PCcLsIeJgiV&ust=1664363275859000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCJDQ78TqtPoCFQAAAAAdAAAAABAD",
+    url: "assets/images/gc.jpg",
     title: " Gated Community",
     imgHeight: "200px",
   },
   {
-    url: "assets/images/land.jpg",
+    url: "assets/images/carp.jpg",
     title: "Car Parking Space",
     imgHeight: "200px",
   },
 
   {
-    url: "assets/images/car.jpg",
+    url: "assets/images/lift1.jpg",
     title: "High Speed Modern Lift",
     imgHeight: "200px",
   },
   {
-    url: "assets/images/security.jpg",
+    url: "assets/images/security2.jpg",
     title: "Round The Clock Security",
     imgHeight: "200px",
   },
   {
-    url: "assets/images/pool.jpg",
+    url: "assets/images/larester.jpg",
     title: "Lighning Arrester",
     imgHeight: "200px",
   },
   {
-    url: "assets/images/",
+    url: "assets/images/tt.jpg",
     title: "Table Tennis",
     imgHeight: "200px",
   },
   {
-    url: "assets/images/",
+    url: "assets/images/pool.jpg",
     title: "Pool / Billiards",
     imgHeight: "200px",
   },
   {
-    url: "assets/images/lighten.jpg",
+    url: "assets/images/bcrt.jpg",
     title: "Badminton Court",
     imgHeight: "200px",
   },
   {
-    url: "assets/images/tennis.jpg",
+    url: "assets/images/sbath.jpg",
     title: "Aerobics,Jacuzies & Steam Bath",
     imgHeight: "200px",
   },
   {
-    url: "assets/images/tennis.jpg",
+    url: "assets/images/cg.jpg",
     title: "Club & Gym",
     imgHeight: "200px",
   },
   {
-    url: "assets/images/tennis.jpg",
+    url: "assets/images/lg.jpg",
     title: "Landscape Garden",
     imgHeight: "200px",
   },
   {
-    url: "assets/images/tennis.jpg",
+    url: "assets/images/cpa.jpg",
     title: "Childrem's Play Area",
     imgHeight: "200px",
   },
   {
-    url: "assets/images/tennis.jpg",
+    url: "assets/images/rwh.jpg",
     title: "Rain Water Harvesting",
     imgHeight: "200px",
   },
   {
-    url: "assets/images/tennis.jpg",
+    url: "assets/images/sd.jpg",
     title: "Standard Type Sanitary & Drainage installlation",
     imgHeight: "200px",
   },
   {
-    url: "assets/images/tennis.jpg",
+    url: "assets/images/gen.jpg",
     title: "24 hrs. Generator Backup",
     imgHeight: "200px",
   },
   {
-    url: "assets/images/tennis.jpg",
+    url: "assets/images/intercom.jpg",
     title: "Intercom Connectivity Flat to main Security gate",
     imgHeight: "200px",
   },
   {
-    url: "assets/images/tennis.jpg",
+    url: "assets/images/ill.jpg",
     title: "Excellent Landscaping & Illumination",
     imgHeight: "200px",
   }

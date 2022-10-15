@@ -1,7 +1,18 @@
 .unit-selector-container{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .mrmodal h5, .mlmodal h5{
     text-align:center;
+}
+.mtab ul{
+    margin: 0px;
+}
+.mtab{
+    margin-top: 22px;
+}
+.unit-selector-container button{
+    margin: 16px auto;
 }

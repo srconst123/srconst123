@@ -178,6 +178,17 @@ import B10G from './pages/unitDetail/B10G';
 import B10H from './pages/unitDetail/B10H';
 import B10I from './pages/unitDetail/B10I';
 
+import F1bhk609 from './pages/unitDetail/609.99'
+import F1bhk616 from './pages/unitDetail/609.99'
+import F2bhk1071 from './pages/unitDetail/1071.31'
+import F3bhk1441 from './pages/unitDetail/1441.31'
+import F3bhk1497 from './pages/unitDetail/1497.74'
+import F3bhk1509 from './pages/unitDetail/1509.97'
+import F3bhk1516 from './pages/unitDetail/1516.94'
+import F3bhk1612 from './pages/unitDetail/1612.91'
+
+
+
 import FlatEnquiry from './pages/flatEnquiry/flatEnquiry';
 import Careers from './pages/careers/careers';
 import Services from './pages/services/services';
@@ -197,6 +208,17 @@ const App = () => {
       <Route path="/contact" element={<Contact />} />
       <Route path="/bookshreedham" element={<Bookshreedham />} />
       <Route path="/unitDetail" element={<UnitDetail />} />
+
+      <Route path="/flat-1bhk-609.99" element={<F1bhk609 />} />
+      <Route path="/flat-1bhk-616.99" element={<F1bhk616 />} />
+      <Route path="/flat-2bhk-1071.31" element={<F2bhk1071 />} />
+      <Route path="/flat-3bhk-1441.31" element={<F3bhk1441 />} />
+      <Route path="/flat-3bhk-1497.74" element={<F3bhk1497 />} />
+      <Route path="/flat-3bhk-1509.97" element={<F3bhk1509 />} />
+      <Route path="/flat-3bhk-1516.94" element={<F3bhk1516 />} />
+      <Route path="/flat-3bhk-1612.31" element={<F3bhk1612 />} />
+
+
 
       <Route path="/A1A" element={<A1A />} />
       <Route path="/A1B" element={<A1B />} />

@@ -5,7 +5,7 @@ import Tabs from 'react-bootstrap/Tabs';
 import Cards from '../cards/Cards';
 import Cardsp from '../cards/Cardsp';
 import { ongoingProjectsData } from '../../constant/MockData';
-import { completedProjects ,readyToMoveData} from '../../constant/MockData';
+import { completedProjects ,readyToMoveData,upcommingProjects} from '../../constant/MockData';
 
 
 const GeneralTabs = () => {
@@ -40,7 +40,7 @@ const GeneralTabs = () => {
       <Cards data={completedProjects} />
       </Tab>
       <Tab eventKey="upcomming" title="Upcomming Projects">
-      <Cards data={completedProjects} />
+      <Cards data={upcommingProjects} />
       </Tab>
     </Tabs>
   )
