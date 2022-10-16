@@ -12,18 +12,24 @@ const Careers = () =>{
     const [userEmail, setUserEmail] = useState("");
     const [userMobile, setUserMobile] = useState("");
     const [userResume, setUserResume] = useState("");
-
-
-    const submitEnquiry = () => {
     
-        Axios.post('/api/career.php', {
+    
+     const data = {
             userName:userName,
             userEmail:userEmail, 
             userMobile:userMobile, 
             userResume:userResume,
+        }
 
 
-        })       
+    const submitEnquiry = () => {
+    
+        let response = fetch('https://srconst.000webhostapp.com/career.php', {
+            method: 'POST',
+            mode:'cors',
+            body: JSON.stringify(data)
+
+        });
 
 
     }
