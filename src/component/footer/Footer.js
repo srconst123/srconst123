@@ -16,13 +16,19 @@ const Footer = () => {
 
   const submitEnquiry = () => {
 
-    Axios.post('/api/enquiry.php',
-      {
+    
+    const data = {
       userName: userName,
       userEmail: userEmail,
       userMobile: userMobile,
       userMessage: userMessage
-    })
+    }
+    let response = fetch('https://srconst.000webhostapp.com/enquiry.php', {
+            method: 'POST',
+            mode:'cors',
+            body: JSON.stringify(data)
+
+        });
   }
   const form = useRef();
 
