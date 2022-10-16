@@ -16,7 +16,7 @@ const FlatEnquiry = ({ closemodal }) => {
 
     const submitEnquiry = () => {
 
-        Axios.post('/api/booking.php', {
+        const data = {
             userName: userName,
             userEmail: userEmail,
             userMobile: userMobile,
@@ -24,7 +24,13 @@ const FlatEnquiry = ({ closemodal }) => {
             userBhk: userBhk,
             userArea: userArea,
 
-        })
+        }
+       let response = fetch('https://srconst.000webhostapp.com/booking.php', {
+            method: 'POST',
+            mode:'cors',
+            body: JSON.stringify(data)
+
+        });
 
 
     }
