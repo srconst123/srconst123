@@ -192,7 +192,7 @@ import F3bhk1612 from './pages/unitDetail/1612.91'
 import FlatEnquiry from './pages/flatEnquiry/flatEnquiry';
 import Careers from './pages/careers/careers';
 import Services from './pages/services/services';
-import Team from './pages/team/team';
+
 
 const App = () => {
   
@@ -396,7 +396,6 @@ const App = () => {
       <Route path="/flatEnquiry" element={<FlatEnquiry />} />
       <Route path="/careers" element={<Careers />} />
       <Route path="/services" element={<Services />} />
-      <Route path="/team" element={<Team />} />
 
     </Routes>
     </>
