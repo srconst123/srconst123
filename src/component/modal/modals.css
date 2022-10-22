@@ -16,3 +16,11 @@
 .unit-selector-container button{
     margin: 16px auto;
 }
+.modal-header{
+    background:aliceblue;
+}
+.mtab{
+    padding:22px;
+    border:1px soid black;
+    border-radius:6px;
+    background:aliceblue;
