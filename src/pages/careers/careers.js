@@ -29,6 +29,11 @@ const Careers = () =>{
 
 
     const submitEnquiry = () => {
+        
+     
+      if (userName==""||userEmail==""||userMobile=="") {
+             alert('Please fill all the required fields !!!')
+         } else {
     
         let response = fetch('https://srconst.000webhostapp.com/career.php', {
             method: 'POST',
@@ -36,8 +41,9 @@ const Careers = () =>{
             body:formData,
 
         });
+        aler("Message sent Successfully !!!");
 
-
+         }
     }
 
     const form = useRef();
