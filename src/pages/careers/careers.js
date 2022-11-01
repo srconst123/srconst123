@@ -33,16 +33,14 @@ const Careers = () =>{
      
       if (userName==""||userEmail==""||userMobile=="") {
              alert('Please fill all the required fields !!!')
-         } else {
-    
+         }
+        else
+         {
         let response = fetch('https://srconst.000webhostapp.com/career.php', {
             method: 'POST',
             mode:'cors',
             body:formData,
-
         });
-        aler("Message sent Successfully !!!");
-
          }
     }
 
