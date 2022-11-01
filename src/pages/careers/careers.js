@@ -25,7 +25,7 @@ const Careers = () =>{
         formData.append("name", userName);
         formData.append("email", userEmail);
         formData.append('mobile_number', userMobile);
-        formData.append("file", userResume);
+        formData.append("resume", userResume);
 
 
     const submitEnquiry = () => {
