@@ -11,7 +11,7 @@ const Careers = () =>{
     const [userName, setUserName] = useState("");
     const [userEmail, setUserEmail] = useState("");
     const [userMobile, setUserMobile] = useState("");
-    const [userResume, setUserResume] = useState("");
+    const [userResume, setUserResume] = useState();
     
     
      const data = {
@@ -20,6 +20,12 @@ const Careers = () =>{
             userMobile:userMobile, 
             userResume:userResume,
         }
+     
+        const formData = new FormData();
+        formData.append("name", userName);
+        formData.append("email", userEmail);
+        formData.append('mobile_number', userMobile);
+        formData.append("file", userResume);
 
 
     const submitEnquiry = () => {
@@ -27,7 +33,7 @@ const Careers = () =>{
         let response = fetch('https://srconst.000webhostapp.com/career.php', {
             method: 'POST',
             mode:'cors',
-            body: JSON.stringify(data)
+            body:formData,
 
         });
 
@@ -36,24 +42,24 @@ const Careers = () =>{
 
     const form = useRef();
 
-    const sendEmail = (e) => {
-      e.preventDefault();
-        if (userName==""||userEmail==""||userMobile=="") {
-            alert('Please fill all the required fields !!!')
-        } else {
-            emailjs.sendForm('service_1ljk3ms', 'template_3zmbxhm', form.current, '2Wdzn5AwiUWjOCwbD')
-            .then((result) => {
-                console.log(result.text);
-                console.log('Request Sent Successfully !!! We will get in touch with you')
-                alert('Request Sent Successfully !!! We will get in touch with you')
-                // Router.reload()
-            }, (error) => {
-                console.log(error.text);
-                alert('Allowed file size is 50kb Please remove resume ')
-            });
-        }
+//     const sendEmail = (e) => {
+//       e.preventDefault();
+//         if (userName==""||userEmail==""||userMobile=="") {
+//             alert('Please fill all the required fields !!!')
+//         } else {
+//             emailjs.sendForm('service_1ljk3ms', 'template_3zmbxhm', form.current, '2Wdzn5AwiUWjOCwbD')
+//             .then((result) => {
+//                 console.log(result.text);
+//                 console.log('Request Sent Successfully !!! We will get in touch with you')
+//                 alert('Request Sent Successfully !!! We will get in touch with you')
+//                 // Router.reload()
+//             }, (error) => {
+//                 console.log(error.text);
+//                 alert('Allowed file size is 50kb Please remove resume ')
+//             });
+//         }
 
-    };
+//     };
     
 
     return(
@@ -62,7 +68,7 @@ const Careers = () =>{
      
       <div className="form-group booking-form root">
             <div className="heading box">
-            <form ref={form}  onSubmit={sendEmail}>
+            <form ref={form} >
                 <div className="form-group"><h2 style={{paddingBottom:30 ,marginLeft:40}}>Enter Your Details</h2>
                     <label className="form-label"  >NAME :</label>
                     <input className="form-control form-control-lg" type="text" name='name' onChange={(e) => {setUserName(e.target.value)}} placeholder='Enter Your Name' />
@@ -77,7 +83,7 @@ const Careers = () =>{
                 </div>
                 <div className="form-group ">
                     <label className="form-label"  >UPLOAD RESUME :</label>
-                    <input className="form-control form-control-lg" type="file" name='resume' placeholder='Resume' onChange={(e) => {setUserResume(e.target.value)}}  />
+                    <input className="form-control form-control-lg" type="file" name='resume' placeholder='Resume' onChange={(e) => {setUserResume(e.target.files[0])}}  />
                 </div>
                 
                 <div className="form-group text-center ">
