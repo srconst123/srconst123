@@ -87,7 +87,7 @@ const Careers = () =>{
                 </div>
                 
                 <div className="form-group text-center ">
-                    <button type="submit" className="btn btn-primary form-control form-control-lg" onClick={submitEnquiry}>SUBMIT</button>
+                    <button type="button" className="btn btn-primary form-control form-control-lg" onClick={submitEnquiry}>SUBMIT</button>
                 </div>
                 
                 </form>
