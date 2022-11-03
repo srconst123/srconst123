@@ -77,6 +77,7 @@ const FlatEnquiry = ({ closemodal }) => {
                     <div className="form-groups ">
                         <label className="form-label"  >Flat : </label>
                         <select name="bhk" class="form-select form-control form-control-lg" onChange={(e) => { setUserBhk(e.target.value) }} aria-label="Default select example">
+                            <option value="609.99 Sqft">Select Flats</option>
                             <option value="1BHK">1BHK</option>
                             <option value="2BHK">2BHK</option>
                             <option value="3BHK">3BHK</option>
@@ -85,6 +86,7 @@ const FlatEnquiry = ({ closemodal }) => {
                     <div className="form-groups ">
                         <label className="form-label"  >Area :</label>
                         <select name="area" class="form-select form-control form-control-lg" onChange={(e) => { setUserArea(e.target.value) }} aria-label="Default select example">
+                            <option value="609.99 Sqft">Select Flats Area</option>
                             <option value="609.99 Sqft">1BHK 609.99 Sqft</option>
                             <option value="616.99 Sqft">1BHK 616.99 Sqft</option>
                             <option value="1071.31 Sqft">2BHK 1071.31 Sqft</option>
