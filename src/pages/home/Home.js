@@ -56,7 +56,13 @@ const Home = () => {
           
           </Carousel>
           <Carousel variant="dark" className="minview">
-          <Cardsmin data={completedProjects}/>        
+          <Carousel.Item>
+              <Cards data={cardslide2} />
+          </Carousel.Item>
+          <Carousel.Item>
+              <Cards data={cardslide2} />
+          </Carousel.Item>
+
           </Carousel>
         </div>
       </div>
