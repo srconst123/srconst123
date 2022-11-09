@@ -5,6 +5,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 import GenericCarousel from '../../component/carousel/carousel';
 import { Projects, completedProjects ,cardslide,cardslide1,cardslide2 } from '../../constant/MockData';
+import { ccp1,ccp2,ccp3,ccp4,ccp5,ccp6,ccp7,ccp8,ccp9,ccp10,ccp11} from '../../constant/MockData1';
+
 import Header from '../../component/header/Header';
 import Footer from '../../component/footer/Footer';
 import Cards from '../../component/cards/Cards';
@@ -57,10 +59,7 @@ const Home = () => {
           </Carousel>
           <Carousel variant="dark" className="minview">
           <Carousel.Item>
-              <Cards data={cardslide2} />
-          </Carousel.Item>
-          <Carousel.Item>
-              <Cards data={cardslide2} />
+              <Cards data={ccp1} />
           </Carousel.Item>
 
           </Carousel>
