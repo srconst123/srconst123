@@ -61,7 +61,36 @@ const Home = () => {
           <Carousel.Item>
               <Cards data={ccp1} />
           </Carousel.Item>
-
+          <Carousel.Item>
+              <Cards data={ccp2} />
+          </Carousel.Item>
+          <Carousel.Item>
+              <Cards data={ccp3} />
+          </Carousel.Item>
+          <Carousel.Item>
+              <Cards data={ccp4} />
+          </Carousel.Item>
+          <Carousel.Item>
+              <Cards data={ccp5} />
+          </Carousel.Item>
+          <Carousel.Item>
+              <Cards data={ccp6} />
+          </Carousel.Item>
+          <Carousel.Item>
+              <Cards data={ccp7} />
+          </Carousel.Item>
+          <Carousel.Item>
+              <Cards data={ccp8} />
+          </Carousel.Item>
+          <Carousel.Item>
+              <Cards data={ccp9} />
+          </Carousel.Item>
+          <Carousel.Item>
+              <Cards data={ccp10} />
+          </Carousel.Item>
+          <Carousel.Item>
+              <Cards data={ccp11} />
+          </Carousel.Item>
           </Carousel>
         </div>
       </div>
