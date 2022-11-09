@@ -18,8 +18,9 @@ const Home = () => {
     <>
 
       <Header />
-      <GenericCarousel carouselSlidesData={Projects} />
- 
+    <div className="hp">
+      <GenericCarousel  carouselSlidesData={Projects} />
+    </div>
       <div className="about-us-container">
         <div className="about-us-content">
           <div className="left-description">        <div className="about-us-title">About Us</div>
