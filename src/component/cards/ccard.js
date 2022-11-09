@@ -9,7 +9,7 @@ import Carousel from 'react-bootstrap/Carousel';
 const Cards = ({ data}) => {
   return (
         {
-          data && data.map(obj => {
+          data.map(obj => {
             const { url, title, description, imgHeight } = obj;
             return (
     <Carousel.Item>
