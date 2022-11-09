@@ -154,7 +154,11 @@ box-shadow:none;
     text-align: justify;
 }
 
-
+@media (min-width: 900px) {
+    .minview{
+        display:none;
+    }
+}
 
 @media (max-width: 900px) {
     .about-us-container {
@@ -162,6 +166,9 @@ box-shadow:none;
         margin: 42px  auto !important;
        
     
+    }
+    .maxview{
+        display:none;
     }
     .project-detail{
         padding:  34px !important;
