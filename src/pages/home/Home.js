@@ -57,7 +57,7 @@ const Home = () => {
 
           
           </Carousel>
-          <Carousel variant="dark" className="minview">
+          <Carousel variant="dark" className="minview mhc">
           <Carousel.Item>
               <Cards data={ccp1} />
           </Carousel.Item>
