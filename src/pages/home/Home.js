@@ -37,7 +37,7 @@ const Home = () => {
       <div className="completed-projects">
         <div className="projects-content hcpmin w-100">
           <div className="project-title">Completed Projects</div>
-          <Carousel>
+          <Carousel variant="dark" className="maxview">
 
           <Carousel.Item>
           <Cards data={cardslide} />
@@ -52,6 +52,12 @@ const Home = () => {
           </Carousel.Item>
 
           
+          </Carousel>
+          <Carousel variant="dark" className="minview">
+
+          <Carousel.Item>
+          <Cards data={completedProjects} />
+          </Carousel.Item>          
           </Carousel>
         </div>
       </div>
