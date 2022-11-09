@@ -7,11 +7,10 @@ import Carousel from 'react-bootstrap/Carousel';
 
 
 const Cards = ({ data}) => {
-  return (
-        {
+  
           data.map(obj => {
             const { url, title, description, imgHeight } = obj;
-            return (
+            return ( <>
     <Carousel.Item>
         <Container className='parent-card-container'>
           <div className='parent-card-group'>
@@ -24,12 +23,9 @@ const Cards = ({ data}) => {
               </Card>
            </div>
         </Container>
-  </Carousel.Item>
+  </Carousel.Item> </>
             );
           })
         }
-
-  )
-}
 
 export default Cards
