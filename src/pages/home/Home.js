@@ -54,27 +54,7 @@ const Home = () => {
           
           </Carousel>
           <Carousel variant="dark" className="minview">
-          {
-            const datamin ={completedProjects}
-          datamin && datamin.map(obj => {
-            const { url, title, description, imgHeight } = obj;
-            return (
-              <Carousel.Item>
-                  <Container className='parent-card-container'>
-                      <div className='parent-card-group'>
-              <Card key={title} >
-                <Card.Img variant="top" src={url} height={imgHeight} />
-                <Card.Body>
-                  <Card.Title>{title}</Card.Title>
-                  <Card.Text>{description}</Card.Text> 
-                </Card.Body>
-              </Card>
-            </div>
-          </Container>
-          </Carousel.Item>
-            );
-          })
-        }         
+          <Cards data={completedProjects}/>        
           </Carousel>
         </div>
       </div>
