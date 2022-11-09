@@ -94,7 +94,7 @@ const Home = () => {
           </Carousel>
         </div>
       </div>
-      <div className="project-detail">
+      <div className="project-detail hcm">
         <div  className="project-carousel mts">
           <Carousel>
             <Carousel.Item>
