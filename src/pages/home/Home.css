@@ -168,7 +168,7 @@ box-shadow:none;
     
     }
     .mhc{
-        height:134%;
+        height:134% !important;
     }
     .hcm .carousel-inner{
         margin-top:64px;
