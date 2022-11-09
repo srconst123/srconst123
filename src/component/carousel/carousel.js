@@ -12,7 +12,7 @@ const GenericCarousel = ({ carouselSlidesData, height = "100%", width = "100%" }
   return (
 
     <div className='crousel_container about'>
-      <Carousel activeIndex={index} onSelect={handleSelect} interval={3000} pause={false} >
+      <Carousel activeIndex={index} variant="dark" onSelect={handleSelect} interval={3000} pause={false} >
         {
           carouselSlidesData && carouselSlidesData.map(obj => {
             const { url, alt, label, description } = obj;
