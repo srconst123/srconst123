@@ -167,6 +167,9 @@ box-shadow:none;
        
     
     }
+    .hcm carousel-inner{
+        margin-top:64px;
+    }
     .maxview{
         display:none;
     }
