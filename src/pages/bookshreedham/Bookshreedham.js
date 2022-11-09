@@ -23,7 +23,7 @@ const Bookshreedham = () =>{
     return(
         <>
       <Header />
-      <div className="booknowdiv"><GenericCarousel carouselSlidesData={Projects} /></div>
+      <div className="booknowdiv hp"><GenericCarousel carouselSlidesData={Projects} /></div>
 
       <div className="welcome-quote-container mr">
         <div className="welcome-quote-content">
