@@ -486,6 +486,6 @@ box-shadow:none;
         overflow-y: visible;
     }
     .carousel-item img {
-    height: 20rem;
+    height: 20rem !important;
     }
 }
