@@ -8,6 +8,8 @@ import { Projects, completedProjects ,cardslide,cardslide1,cardslide2 } from '..
 import Header from '../../component/header/Header';
 import Footer from '../../component/footer/Footer';
 import Cards from '../../component/cards/Cards';
+import Cardsmin from '../../component/cards/ccard';
+
 
 const Home = () => {
   return (
@@ -54,7 +56,7 @@ const Home = () => {
           
           </Carousel>
           <Carousel variant="dark" className="minview">
-          <Cards data={completedProjects}/>        
+          <Cardsmin data={completedProjects}/>        
           </Carousel>
         </div>
       </div>
