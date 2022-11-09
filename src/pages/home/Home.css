@@ -485,7 +485,7 @@ box-shadow:none;
     .modal-fullscreen .modal-body{
         overflow-y: visible;
     }
-    .carousel-item img {
+    .hp .carousel-item img {
     height: 20rem !important;
     }
 }
