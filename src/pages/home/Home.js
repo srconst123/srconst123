@@ -42,7 +42,7 @@ const Home = () => {
       <div className="completed-projects">
         <div className="projects-content hcpmin w-100">
           <div className="project-title">Completed Projects</div>
-          <Carousel variant="dark" className="maxview">
+          <Carousel variant="dark" interval={3000} className="maxview">
 
           <Carousel.Item>
           <Cards data={cardslide} />
@@ -58,7 +58,7 @@ const Home = () => {
 
           
           </Carousel>
-          <Carousel variant="dark" className="minview mhc">
+          <Carousel interval={3000} variant="dark" className="minview mhc">
           <Carousel.Item>
               <Cards data={ccp1} />
           </Carousel.Item>
