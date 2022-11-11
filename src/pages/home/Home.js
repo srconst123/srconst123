@@ -44,15 +44,15 @@ const Home = () => {
           <div className="project-title">Completed Projects</div>
           <Carousel variant="dark"  className="maxview">
 
-          <Carousel.Item interval={1000}>
+          <Carousel.Item interval={2000}>
           <Cards data={cardslide} />
           </Carousel.Item>
           
-          <Carousel.Item interval={1000}>
+          <Carousel.Item interval={2000}>
           <Cards data={cardslide1} />
           </Carousel.Item>
           
-          <Carousel.Item interval={1000}>
+          <Carousel.Item interval={2000}>
           <Cards data={cardslide2} />
           </Carousel.Item>
 
