@@ -42,54 +42,54 @@ const Home = () => {
       <div className="completed-projects">
         <div className="projects-content hcpmin w-100">
           <div className="project-title">Completed Projects</div>
-          <Carousel variant="dark" interval={3000} className="maxview">
+          <Carousel variant="dark"  className="maxview">
 
-          <Carousel.Item>
+          <Carousel.Item interval={1000}>
           <Cards data={cardslide} />
           </Carousel.Item>
           
-          <Carousel.Item>
+          <Carousel.Item interval={1000}>
           <Cards data={cardslide1} />
           </Carousel.Item>
           
-          <Carousel.Item>
+          <Carousel.Item interval={1000}>
           <Cards data={cardslide2} />
           </Carousel.Item>
 
           
           </Carousel>
-          <Carousel interval={3000} variant="dark" className="minview mhc">
-          <Carousel.Item>
+          <Carousel variant="dark" className="minview mhc">
+          <Carousel.Item  interval={1000}>
               <Cards data={ccp1} />
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item  interval={1000}>
               <Cards data={ccp2} />
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item  interval={1000}>
               <Cards data={ccp3} />
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item  interval={1000}>
               <Cards data={ccp4} />
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item  interval={1000}>
               <Cards data={ccp5} />
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item interval={1000}>
               <Cards data={ccp6} />
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item interval={1000}>
               <Cards data={ccp7} />
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item interval={1000}>
               <Cards data={ccp8} />
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item interval={1000}>
               <Cards data={ccp9} />
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item interval={1000}>
               <Cards data={ccp10} />
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item interval={1000}>
               <Cards data={ccp11} />
           </Carousel.Item>
           </Carousel>
