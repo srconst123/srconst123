@@ -41,6 +41,7 @@ const Careers = () =>{
             mode:'cors',
             body:formData,
         });
+             alert('Request Sent Successfully !!! We will get in touch with you')
          }
     }
 
